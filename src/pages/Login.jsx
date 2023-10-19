@@ -23,13 +23,20 @@ export const Login = () => {
      
     return (
         <div className='login-page'>
-            <form onSubmit={handleSubmit}>
-                <label className='label-main'>Вхід/Реєстрація</label>
-                <label>Ім'я <input type="text" name='firstName'/></label>
-                <label>Прізвище <input type="text" name='lastName'/></label>
-                <label>Телефон <input type="number" name='number'/></label>
-                <button className='btn-login' type='submit'>Вхід</button>
-            </form>
+            <div className="login-page block-form">
+                <form onSubmit={handleSubmit}>
+                    <label className='label-main'>Вхід/Реєстрація</label>
+                    <label>Ім'я <input type="text" name='firstName'/></label>
+                    <label>Прізвище <input type="text" name='lastName'/></label>
+                    <label>Телефон <input type="number" name='number'/></label>
+                    <button className='btn-login' type='submit'>Вхід</button>
+                </form>
+            </div>
+            
+
+            <div className="decoration">
+                <div className='decoration__info'>International Bank</div>
+            </div>
         </div>
     );
 };
