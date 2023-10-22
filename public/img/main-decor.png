@@ -1,0 +1,1728 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#" lang="uk-UA" dir="ltr">
+<head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-P8BLF7M');</script>
+<!-- End Google Tag Manager -->
+
+<link rel="dns-prefetch" href="https://fonts.googleapis.com"/>
+<link rel="dns-prefetch" href="https://www.googletagmanager.com"/>
+<link rel="dns-prefetch" href="https://platform.twitter.com"/>
+<link rel="dns-prefetch" href="https://fonts.gstatic.com"/>
+<link rel="dns-prefetch" href="https://finclub.disqus.com"/>
+<link rel="dns-prefetch" href="https://syndication.twitter.com"/>
+<link rel="dns-prefetch" href="https://c.disquscdn.com"/>
+<link rel="dns-prefetch" href="//www.google-analytics.com"/>
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link rel="preconnect" href="https://www.googletagmanager.com"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://finclub.disqus.com"/>
+<link rel="preconnect" href="//www.google-analytics.com" crossorigin/>
+<link rel="preconnect" href="https://platform.twitter.com"/>
+
+<link rel="preload" href="https://finclub.net//templates/finclub/assets/fonts/fira-sans-v10-latin_cyrillic-700.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="https://finclub.net//templates/finclub/assets/fonts/fira-sans-v10-latin_cyrillic-regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="https://finclub.net//templates/finclub/assets/fonts/merriweather-v22-latin_cyrillic-300.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="https://finclub.net//templates/finclub/assets/fonts/merriweather-v22-latin_cyrillic-regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="https://finclub.net//templates/finclub/assets/fonts/fira-sans-v10-latin_cyrillic-300.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="https://finclub.net//templates/finclub/assets/fonts/merriweather-v22-latin_cyrillic-700.woff2" as="font" type="font/woff2" crossorigin>
+
+
+
+	<meta charset="utf-8" />
+	<base href="https://finclub.net/ua/projects/banks/ukrhazbank/ukrhazbank-doiednavsia-do-merezhi-vitchyznianykh-bankiv-power-banking.html" />
+	<meta name="keywords" content="укргазбанк,power banking" />
+	<meta name="rights" content="finclub.net" />
+	<meta name="author" content="Фінансовий клуб" />
+	<meta property="og:url" content="https://finclub.net/ua/projects/banks/ukrhazbank/ukrhazbank-doiednavsia-do-merezhi-vitchyznianykh-bankiv-power-banking.html" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Укргазбанк доєднався до мережі вітчизняних банків power banking — Фiнансовий клуб" />
+	<meta property="og:description" content="Power banking – це об’єднана мережа банків, створена за ініціативи Національного банку, що налічує понад 1000 відділень по всій Україні. Ця ініціатива..." />
+	<meta property="og:image" content="https://finclub.net/media/k2/items/cache/a7cae8f38227567ca6d08cfded9b9e7e_XL.jpg" />
+	<meta name="image" content="https://finclub.net/media/k2/items/cache/a7cae8f38227567ca6d08cfded9b9e7e_XL.jpg" />
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:site" content="@FinClub_ua" />
+	<meta name="twitter:title" content="Укргазбанк доєднався до мережі вітчизняних банків power banking — Фiнансовий клуб" />
+	<meta name="twitter:description" content="Power banking – це об’єднана мережа банків, створена за ініціативи Національного банку, що налічує понад 1000 відділень по всій Україні. Ця ініціатива..." />
+	<meta name="twitter:image" content="https://finclub.net/media/k2/items/cache/a7cae8f38227567ca6d08cfded9b9e7e_XL.jpg" />
+	<meta name="twitter:image:alt" content="Укргазбанк доєднався до мережі вітчизняних банків power banking" />
+	<meta name="twitter:url" content="https://finclub.net/ua/projects/banks/ukrhazbank/ukrhazbank-doiednavsia-do-merezhi-vitchyznianykh-bankiv-power-banking.html" />
+	<meta name="HandheldFriendly" content="True" />
+	<meta name="MobileOptimized" content="320" />
+	<meta name="google-site-verification" content="UFWufLrYtaAZ_uH4DiDL-PfeXaa9o7Ph7iarl-9P8gE" />
+	<meta name="yandex-verification" content="6d386af016cd9e18" />
+	<meta rel="publisher" content="//plus.google.com/u/6/115277036690520402096" />
+	<meta itemprop="name" content="Укргазбанк доєднався до мережі вітчизняних банків power banking — Фiнансовий клуб" />
+	<meta itemprop="image" content="https://finclub.net/media/k2/items/cache/a7cae8f38227567ca6d08cfded9b9e7e_XL.jpg" />
+	<meta name="description" content="Power banking – це об’єднана мережа банків, створена за ініціативи Національного банку, що налічує понад 1000 відділень по всій Україні. Ця ініціатива..." />
+	<title>Укргазбанк доєднався до мережі вітчизняних банків power banking — Фiнансовий клуб</title>
+	<link href="https://finclub.net/ua/projects/banks/ukrhazbank/ukrhazbank-doiednavsia-do-merezhi-vitchyznianykh-bankiv-power-banking.html" rel="canonical" />
+	<link href="/templates/finclub/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+	<link href="https://cdn.jsdelivr.net/npm/magnific-popup@1.1.0/dist/magnific-popup.min.css" rel="stylesheet" />
+	<link href="https://finclub.net//templates/finclub/assets/css/style.css?34" rel="stylesheet" />
+	<link href="/media/com_visforms/css/visforms.min.css?40b3db44cc1ec23b3e5cc7f01484ff9f" rel="stylesheet" />
+	<style>
+
+                        /* K2 - Magnific Popup Overrides */
+                        .mfp-iframe-holder {padding:10px;}
+                        .mfp-iframe-holder .mfp-content {max-width:100%;width:100%;height:100%;}
+                        .mfp-iframe-scaler iframe {background:#fff;padding:10px;box-sizing:border-box;box-shadow:none;}
+                    form#mod-visform3 .vflocationsubform {display: block;}form#mod-visform3 .vflocationsubform .locationinput, form#mod-visform3 .vflocationsubform .getmylocationbutton {display: inline-block; margin-bottom: 0; vertical-align: middle;}
+	</style>
+	<script src="/templates/finclub/js/jui/jquery.min.js?40b3db44cc1ec23b3e5cc7f01484ff9f"></script>
+	<script src="/media/jui/js/jquery-noconflict.js?40b3db44cc1ec23b3e5cc7f01484ff9f"></script>
+	<script src="https://cdn.jsdelivr.net/npm/magnific-popup@1.1.0/dist/jquery.magnific-popup.min.js"></script>
+	<script src="/media/k2/assets/js/k2.frontend.js?v=2.10.3&b=20200429&sitepath=/"></script>
+	<script src="/media/jui/js/bootstrap.min.js?40b3db44cc1ec23b3e5cc7f01484ff9f"></script>
+	<script src="/media/com_visforms/js/jquery.validate.min.js?40b3db44cc1ec23b3e5cc7f01484ff9f"></script>
+	<script src="/media/com_visforms/js/visforms.js?40b3db44cc1ec23b3e5cc7f01484ff9f"></script>
+	<script type="application/x-k2-headers">
+{"Last-Modified": "Mon, 26 Dec 2022 10:22:44 GMT", "ETag": "29aae88b2a0f11f5d6763fcb8ae4cf7b"}
+	</script>
+	<script type="application/ld+json">
+
+                {
+                    "@context": "https://schema.org",
+                    "@type": "Article",
+                    "mainEntityOfPage": {
+                        "@type": "WebPage",
+                        "@id": "https://finclub.net/ua/projects/banks/ukrhazbank/ukrhazbank-doiednavsia-do-merezhi-vitchyznianykh-bankiv-power-banking.html"
+                    },
+                    "url": "https://finclub.net/ua/projects/banks/ukrhazbank/ukrhazbank-doiednavsia-do-merezhi-vitchyznianykh-bankiv-power-banking.html",
+                    "headline": "Укргазбанк доєднався до мережі вітчизняних банків power banking — Фiнансовий клуб",
+                    "image": [
+                        "https://finclub.net/media/k2/items/cache/a7cae8f38227567ca6d08cfded9b9e7e_XL.jpg",
+                        "https://finclub.net/media/k2/items/cache/a7cae8f38227567ca6d08cfded9b9e7e_L.jpg",
+                        "https://finclub.net/media/k2/items/cache/a7cae8f38227567ca6d08cfded9b9e7e_M.jpg",
+                        "https://finclub.net/media/k2/items/cache/a7cae8f38227567ca6d08cfded9b9e7e_S.jpg",
+                        "https://finclub.net/media/k2/items/cache/a7cae8f38227567ca6d08cfded9b9e7e_XS.jpg",
+                        "https://finclub.net/media/k2/items/cache/a7cae8f38227567ca6d08cfded9b9e7e_Generic.jpg"
+                    ],
+                    "datePublished": "2022-12-26 09:52:46",
+                    "dateModified": "2022-12-26 10:22:44",
+                    "author": {
+                        "@type": "Person",
+                        "name": " Фінансовий клуб",
+                        "url": "https://finclub.net/ua/allua/author/267-finansoviyklub.html"
+                    },
+                    "publisher": {
+                        "@type": "Organization",
+                        "name": "Финансовые новости Украины и аналитика - Финансовый клуб",
+                        "url": "https://finclub.net/",
+                        "logo": {
+                            "@type": "ImageObject",
+                            "name": "Финансовые новости Украины и аналитика - Финансовый клуб",
+                            "width": "245",
+                            "height": "60",
+                            "url": "https://finclub.net/images/finclub-logo.png"
+                        }
+                    },
+                    "articleSection": "https://finclub.net/ua/projects/banks/ukrhazbank.html",
+                    "keywords": "укргазбанк,power banking",
+                    "description": "Power banking – це об’єднана мережа банків, створена за ініціативи Національного банку, що налічує понад 1000 відділень по всій Україні.",
+                    "articleBody": "Power banking – це об’єднана мережа банків, створена за ініціативи Національного банку, що налічує понад 1000 відділень по всій Україні. Ця ініціатива – спільна відповідь банківської системи на можливі виклики тривалої відсутності електроенергії та зв’язку (блекауту), та гарантія для клієнта будь-якого банку, що певний перелік нагальних банківських послуг буде доступний навіть у критичній ситуації. Мережа power banking (PB) буде працювати завдяки встановленню необхідного обладнання (генераторів, старлінків тощо), тож критично важливі сервіси будуть безперервно працювати в умовах блекауту. Наразі до PB входять всі 14 системних банків України, та планують долучитися інші банки. Перелік відділень постійно доповнюється і доступний за посиланням: https://bank.gov.ua/ua/consumer-protection/map-bank-branches У відділеннях спільної мережі power banking діє спільний «банкоматний національний роумінг», що передбачає єдині збільшені ліміти та скасування комісії на зняття готівки з карток інших банків. До уваги клієнтів! Відділення банків РВ надають лише банківські послуги та не є «пунктами незламності». Вони не дублюють їх функціонал, тобто такі відділення не забезпечують обігрів, відпочинок громадян, харчування та зарядку електроприладів. На відміну від «пунктів незламності», з переліком яких можна ознайомитись за посиланням: https://nezlamnist.gov.ua/ Перелік послуг, які надаватимуть відділення, що входять до спільної банківської мережі power banking під час блекауту: Отримання готівки (банкомати, каса). Платежі, переказ коштів (каса, термінали самообслуговування). Обмін валют при наявності готівкової валюти в касі. Консультації менеджерів з фінансових питань тощо. За більш детальною інформацією телефонуйте до нашого контакт-центру банку: 0 800 309 000. У разі збою зв’язку, платежі проводяться у звичайному режимі, але збільшується час зарахування коштів на рахунки. Мережа power banking – це приклад консолідації та партнерства банків України, адже ми обрали не конкуренцію, а щоденну координацію та обмін досвідом, щоб спільно протистояти викликам війни."
+                }
+                
+	</script>
+	<script>
+jQuery(document).ready(function () {
+            jQuery.extend(jQuery.validator.messages, {
+            required: "This field is required.",
+            remote: "Please fix this field.",
+            email: "Please enter a valid email: <span>E.g. yourname&#64;domain.com</span>",
+            url: "Please enter a valid url: <span>E.g. http://www.domain.com</span>",
+            date: "Please enter a valid date.",
+            dateISO: "Please enter a valid date (ISO).",
+            number: "Please enter a valid number.",
+            digits: "Please enter a digit.",
+            creditcard: "Please enter a valid credit card number.",
+            equalTo: "Please repeat the value.",
+            maxlength: jQuery.validator.format("Please enter no more than {0} characters."),
+            minlength: jQuery.validator.format("Please enter at least {0} characters."),
+            rangelength: jQuery.validator.format("Please enter {0} to {1} character."),
+            range: jQuery.validator.format("Please enter a number between {0} and {1}."),
+            max: jQuery.validator.format("Please enter a number lower or equal {0}."),
+            min: jQuery.validator.format("Please enter a number greater or equal {0}."),
+            customvalidation: "Invalid Input",
+            ispair: "Latitude and longigute must be valid geocoordinates in decimal format and must be entered as pair."
+            });
+            });jQuery(document).ready(function () {
+            jQuery.validator.addMethod("dateDMY", function (value, element) {
+                var check = false;
+                var re = /^(0[1-9]|[12][0-9]|3[01])[\.](0[1-9]|1[012])[\.]\d{4}$/;
+                    if (re.test(value)) {
+                        var adata = value.split(".");
+                        var day = parseInt(adata[0], 10);
+                        var month = parseInt(adata[1], 10);
+                        var year = parseInt(adata[2], 10);
+                        if (day == 31 && (month == 4 || month == 6 || month == 9 || month == 11)) {
+                            check = false; // 31st of a month with 30 days
+                        } else if (day >= 30 && month == 2) {
+                            check = false; // February 30th or 31st
+                        } else if (month == 2 && day == 29 && !(year % 4 == 0 && (year % 100 != 0 || year % 400 == 0))) {
+                            check = false; // February 29th outside a leap year
+                        } else {
+                            check = true; // Valid date
+                        }
+                    }
+                    //the calender does not allow to clear values if it is required (js). So the required option in this validation is just a workaround fallback
+                    if (value == "0000-00-00 00:00:00" && !jQuery(element).prop("required")) {
+                        check = true;
+                    }
+                    return this.optional(element) || check;
+            });
+            jQuery.validator.addMethod("dateMDY", function (value, element) {
+                var check = false;
+                var re = /^(0[1-9]|1[012])[\/](0[1-9]|[12][0-9]|3[01])[\/]\d{4}$/;
+                    if (re.test(value)) {
+                        var adata = value.split("/");
+                        var month = parseInt(adata[0], 10);
+                        var day = parseInt(adata[1], 10);
+                        var year = parseInt(adata[2], 10);
+                        if (day == 31 && (month == 4 || month == 6 || month == 9 || month == 11)) {
+                            check = false; // 31st of a month with 30 days
+                        } else if (day >= 30 && month == 2) {
+                            check = false; // February 30th or 31st
+                        } else if (month == 2 && day == 29 && !(year % 4 == 0 && (year % 100 != 0 || year % 400 == 0))) {
+                            check = false; // February 29th outside a leap year
+                        } else {
+                            check = true; // Valid date
+                        }
+                    }
+                    //the calender does not allow to clear values if it is required (js). So the required option in this validation is just a workaround fallback
+                    if (value == "0000-00-00 00:00:00" && !jQuery(element).prop("required")) {
+                        check = true;
+                    }
+                    return this.optional(element) || check;
+            });
+            jQuery.validator.addMethod("dateYMD", function (value, element) {
+                var check = false;
+                var re = /^\d{4}[\-](0[1-9]|1[012])[\-](0[1-9]|[12][0-9]|3[01])$/;
+                    if (re.test(value)) {
+                        var adata = value.split("-");
+                        var year = parseInt(adata[0], 10);
+                        var month = parseInt(adata[1], 10);
+                        var day = parseInt(adata[2], 10);
+                        if (day == 31 && (month == 4 || month == 6 || month == 9 || month == 11)) {
+                            check = false; // 31st of a month with 30 days
+                        } else if (day >= 30 && month == 2) {
+                            check = false; // February 30th or 31st
+                        } else if (month == 2 && day == 29 && !(year % 4 == 0 && (year % 100 != 0 || year % 400 == 0))) {
+                            check = false; // February 29th outside a leap year
+                        } else {
+                            check = true; // Valid date
+                        }
+                    }
+                    //the calender does not allow to clear values if it is required (js). So the required option in this validation is just a workaround fallback
+                    if (value == "0000-00-00 00:00:00" && !jQuery(element).prop("required")) {
+                        check = true;
+                    }
+                    return this.optional(element) || check;
+            });
+            jQuery.validator.addMethod("filesize", function (value, element, maxsize) {
+                var check = false;
+                if ((maxsize === 0) || ((!(element.files.length == 0)) && (element.files[0].size < maxsize)))
+                {
+                    check = true;
+                }
+                return this.optional(element) || check;
+            });
+            jQuery.validator.addMethod("fileextension", function (value, element, allowedextension) {
+                var check = false;
+                allowedextension = allowedextension.replace(/\s/g, "");
+                allowedextension = allowedextension.split(",");
+                var fileext = jQuery(element).val().split(".").pop().toLowerCase();
+                if (jQuery.inArray(fileext, allowedextension) > -1)
+                {
+                    check = true;
+                }
+                return this.optional(element) || check;
+            });
+            jQuery.validator.addMethod("customvalidation", function (value, element, re) {
+                return this.optional(element) || re.test(value);
+            });
+            jQuery.validator.addMethod("ispair", function (value, element, id) {
+                var latval = document.getElementById(id+"_lat").value;
+                var lngval = document.getElementById(id+"_lng").value;
+                //false if on field is empty and the other not
+                var check = ((latval === "" && lngval === "") || (latval !== "" && lngval !== ""));
+                var relatval = /^[-]?(([0-8]?[0-9])\.(\d+))|(90(\.0+)?)$/;
+                var relngval = /^[-]?((((1[0-7][0-9])|([0-9]?[0-9]))\.(\d+))|180(\.0+)?)$/;
+                check = (latval === "" || relatval.test(latval)) && check;
+                check = (lngval === "" || relngval.test(lngval)) && check;
+                return check;
+            });
+            jQuery.validator.addMethod("mindate", function(value, element, options) {
+	            var check = false;
+	            var minDate = "";
+	            if (value) {
+	                if (options.fromField) {
+	                    var fieldId = options.value;
+	                    var field = document.getElementById(fieldId);
+	                    if (!field) {
+	                        return true;
+	                    }
+	                    if (field.disabled) {
+	                        return true;
+	                    }
+	                    minDate = field.value;
+	                    if (!minDate) {
+	                        return true;
+	                    }
+	                } else {
+	                    minDate = options.value;
+	                }
+	                var  format, i = 0, fmt = {}, minDateFormat, j = 0, minDateFmt = {}, day;
+	                format = (value.indexOf(".") > -1) ? "dd.mm.yyyy" : ((value.indexOf("/") > -1) ? "mm/dd/yyyy" : "yyyy-mm-dd");
+	                format.replace(/(yyyy|dd|mm)/g, function(part) { fmt[part] = i++; });
+	                minDateFormat = (minDate.indexOf(".") > -1) ? "dd.mm.yyyy" : ((minDate.indexOf("/") > -1) ? "mm/dd/yyyy" : "yyyy-mm-dd");
+	                minDateFormat.replace(/(yyyy|dd|mm)/g, function(part) { minDateFmt[part] = j++; });
+	                var minDateParts = minDate.match(/(\d+)/g);
+	                var valueParts = value.match(/(\d+)/g);
+	                minDate = new Date(minDateParts[minDateFmt["yyyy"]], minDateParts[minDateFmt["mm"]]-1, minDateParts[minDateFmt["dd"]],0,0,0,0);
+	                if (options.shift) {
+	                    var shift = options.shift;
+	                    day = minDate.getDate();
+	                    day = day + parseInt(shift);
+	                    minDate.setDate(day);
+	                }
+	                value = new Date(valueParts[fmt["yyyy"]], valueParts[fmt["mm"]]-1, valueParts[fmt["dd"]],0,0,0,0);
+	                check = value >= minDate;
+                }
+                return this.optional(element) || check;
+            }, function(options, element) {
+            //validation message
+             if (options.fromField) {
+                    var minDate = "";
+                    var fieldId = options.value;
+                    var field = document.getElementById(fieldId);
+                    if (field) {
+                        minDate = field.value;
+                    }
+                } else {
+                    minDate = options.value;
+                }
+                var format, minDateFormat, j = 0, minDateFmt = {}, day, month, year, valDate;
+                minDateFormat = (minDate.indexOf(".") > -1) ? "dd.mm.yyyy" : ((minDate.indexOf("/") > -1) ? "mm/dd/yyyy" : "yyyy-mm-dd");
+                minDateFormat.replace(/(yyyy|dd|mm)/g, function(part) { minDateFmt[part] = j++; });
+                var minDateParts = minDate.match(/(\d+)/g);
+                minDate = new Date(minDateParts[minDateFmt["yyyy"]], minDateParts[minDateFmt["mm"]]-1, minDateParts[minDateFmt["dd"]],0,0,0,0);
+                if (options.shift) {
+                    var shift = options.shift;
+                    day = minDate.getDate();
+                    day = day + parseInt(shift);
+                    minDate.setDate(day);
+                }
+                format = options.format;
+                valDate = "";
+                day = minDate.getDate();
+                if (day < 10) {
+                    day = "0" + day;
+                }
+                month = 1 + minDate.getMonth();
+                if (month < 10) {
+                    month = "0" + month;
+                }
+                year = minDate.getFullYear();
+                switch (format) {
+                    case "%Y-%m-%d" :
+                        valDate = year + "-" + month + "-" + day;
+                        break;
+                    case "%m/%d/%Y" :
+                        valDate = month + "/" + day  + "/" + year;
+                        break;
+                    default :
+                        valDate = day + "." + month + "." + year;
+                        break;
+                }
+                return jQuery.validator.format("Please select a date greater or equal to {0}.", valDate);               
+            });
+            jQuery.validator.addMethod("maxdate", function(value, element, options) {
+	            var check = false;
+	            var minDate = "";
+	            if (value) {
+	                if (options.fromField) {
+	                    var fieldId = options.value;
+	                    var field = document.getElementById(fieldId);
+	                    if (!field) {
+	                        return true;
+	                    }
+	                    if (field.disabled) {
+	                        return true;
+	                    }
+	                    minDate = field.value;
+	                    if (!minDate) {
+	                        return true;
+	                    }
+	                } else {
+	                    minDate = options.value;
+	                }
+	                var  format, i = 0, fmt = {}, minDateFormat, j = 0, minDateFmt = {}, day;
+	                format = (value.indexOf(".") > -1) ? "dd.mm.yyyy" : ((value.indexOf("/") > -1) ? "mm/dd/yyyy" : "yyyy-mm-dd");
+	                format.replace(/(yyyy|dd|mm)/g, function(part) { fmt[part] = i++; });
+	                minDateFormat = (minDate.indexOf(".") > -1) ? "dd.mm.yyyy" : ((minDate.indexOf("/") > -1) ? "mm/dd/yyyy" : "yyyy-mm-dd");
+	                minDateFormat.replace(/(yyyy|dd|mm)/g, function(part) { minDateFmt[part] = j++; });
+	                var minDateParts = minDate.match(/(\d+)/g);
+	                var valueParts = value.match(/(\d+)/g);
+	                minDate = new Date(minDateParts[minDateFmt["yyyy"]], minDateParts[minDateFmt["mm"]]-1, minDateParts[minDateFmt["dd"]],0,0,0,0);
+	                if (options.shift) {
+	                    var shift = options.shift;
+	                    day = minDate.getDate();
+	                    day = day + parseInt(shift);
+	                    minDate.setDate(day);
+	                }
+	                value = new Date(valueParts[fmt["yyyy"]], valueParts[fmt["mm"]]-1, valueParts[fmt["dd"]],0,0,0,0);
+	                check = value <= minDate;
+                }
+                return this.optional(element) || check;
+            }, function(options, element) {
+            //validation message
+             if (options.fromField) {
+                    var minDate = "";
+                    var fieldId = options.value;
+                    var field = document.getElementById(fieldId);
+                    if (field) {
+                        minDate = field.value;
+                    }
+                } else {
+                    minDate = options.value;
+                }
+                var format, minDateFormat, j = 0, minDateFmt = {}, day, month, year, valDate;
+                minDateFormat = (minDate.indexOf(".") > -1) ? "dd.mm.yyyy" : ((minDate.indexOf("/") > -1) ? "mm/dd/yyyy" : "yyyy-mm-dd");
+                minDateFormat.replace(/(yyyy|dd|mm)/g, function(part) { minDateFmt[part] = j++; });
+                var minDateParts = minDate.match(/(\d+)/g);
+                minDate = new Date(minDateParts[minDateFmt["yyyy"]], minDateParts[minDateFmt["mm"]]-1, minDateParts[minDateFmt["dd"]],0,0,0,0);
+                if (options.shift) {
+                    var shift = options.shift;
+                    day = minDate.getDate();
+                    day = day + parseInt(shift);
+                    minDate.setDate(day);
+                }
+                format = options.format;
+                valDate = "";
+                day = minDate.getDate();
+                if (day < 10) {
+                    day = "0" + day;
+                }
+                month = 1 + minDate.getMonth();
+                if (month < 10) {
+                    month = "0" + month;
+                }
+                year = minDate.getFullYear();
+                switch (format) {
+                    case "%Y-%m-%d" :
+                        valDate = year + "-" + month + "-" + day;
+                        break;
+                    case "%m/%d/%Y" :
+                        valDate = month + "/" + day  + "/" + year;
+                        break;
+                    default :
+                        valDate = day + "." + month + "." + year;
+                        break;
+                }
+                return jQuery.validator.format("Please select a date lower or equal to {0}.", valDate);
+            });
+        });
+	</script>
+
+
+
+
+	<meta name="p:domain_verify" content=""/>
+	
+	<meta name="language" content="ru-ru"/>
+	
+
+	<link rel="apple-touch-icon" sizes="180x180" href="https://finclub.net//templates/finclub/assets/icons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="https://finclub.net//templates/finclub/assets/icons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="https://finclub.net//templates/finclub/assets/icons/favicon-16x16.png">
+	<link rel="manifest" href="https://finclub.net//templates/finclub/assets/icons/site.webmanifest">
+	<link rel="mask-icon" href="https://finclub.net//templates/finclub/assets/icons/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="theme-color" content="#ffffff">
+	
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!--<link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,400,700|Merriweather:300,400,400i,700,700i&display=swap&subset=cyrillic" rel="stylesheet" media="print" onload="this.media='all'"/> -->
+	
+	<link href="https://finclub.net//templates/finclub/assets/css/fonts.css" rel="stylesheet" media="print" onload="this.media='all'"/>
+	
+	
+</head>
+
+<body class="site com_k2 view-item no-layout no-task itemid-655" data-page-auto-refresh="0" data-ad-refresh="60">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P8BLF7M"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+	<div class="skip-nav">
+		<ul class="skip-nav__list">
+			<li class="skip-nav__action">
+				<!-- Using button due to browser issues with anchor tags, but would prefer to use anchor tags in the future -->
+				<button class="skip-nav__link" onclick="window.location.href='#main'">Skip to Main Content</button>
+			</li>
+		</ul>
+	</div>
+
+	<div class="page-wrapper">
+		<div class="page-header">
+			<div class="ad bgc--transparent no-border">
+				<div class="content-group ad ">
+					<div class="ad-slot js-lazy-load flex horizontal " id="pol-01" aria-hidden="true"></div>
+				</div>
+			</div>
+			<header class="header on-core on-home " id="js-top-header">
+				<div class="header__row header__main">
+					<div class="header__branding" role="banner">
+						<h1>
+							<a href="https://finclub.net/">
+								<img src="https://finclub.net//templates/finclub/images/finclub-logo.png" alt="FINCLUB Фiнансовий клуб">
+								<span class="icon-text">FINCLUB Фiнансовий клуб</span>
+							</a>
+						</h1>
+					</div>
+					<div class="header__content">
+						<div class="header__left">
+							<button aria-expanded="false" class="hamburger js-hamburger" aria-label="MENU">
+								<span></span>
+							</button>
+						</div>
+						<div class="header__right">
+							<div class="actions-lineup">
+								<ul class="actions-lineup__list">
+									<li class="actions-lineup__item"> 
+										            
+											    <div class=" top-lang">
+	
+						
+            <div class="mod-languages top-lang">
+
+	<ul class="lang-inline" dir="ltr">
+									<li class="lang-active">
+			<a href="https://finclub.net/ua/projects/banks/ukrhazbank/ukrhazbank-doiednavsia-do-merezhi-vitchyznianykh-bankiv-power-banking.html">
+							UA						</a>
+			</li>
+								<li>
+			<a href="/ru/spetsproekty/banks/ukrgazbank.html">
+							RU						</a>
+			</li>
+				</ul>
+
+</div>
+    </div>
+	
+																			</li>
+
+									<li class="actions-lineup__item hide-at-mobile">
+										<a href="https://banksrating.com.ua/" target="_blank" rel="noopener">Рейтинг банкiв</a>
+									</li>
+
+									<li class="actions-lineup__item hide-at-mobile">
+										<a href="https://finclub.net/blogs.html" rel="noopener">Автори</a>
+									</li>
+									<li class="actions-lineup__item " role="search">
+										<div class="slide-search" role="button">
+											<a href="/index.html#" class="slide-search__open" id="search-open" aria-pressed="false" role="button" target="_top">
+												<b class="bt-icon bt-icon-magnifier"></b>
+												<span class="icon-text">Пошук</span>
+											</a>
+											<div class="slide-search__content " id="search-input" aria-hidden="true">
+											
+																							    <div class="">
+	
+						
+            <div itemscope itemtype="https://schema.org/WebSite">
+<link itemprop="url" content="https://finclub.net/"/>
+<form class="slide-search__form" action="/ua/component/k2/search.html?Itemid=136" method="get" autocomplete="off"  itemprop="potentialAction" itemscope itemtype="https://schema.org/SearchAction">
+	
+	<input class="slide-search__input" type="search" name="searchword" id="searchTerm" placeholder="Введите фразу для поиска..."  itemprop="query-input" required />
+	<meta itemprop="target" content="https://finclub.net/component/k2/search.html?searchword={searchword}&utm_source=sitelinksearch"/>
+	
+	<button class="slide-search__run" type="submit">
+		<b class="bt-icon bt-icon-magnifier"></b>
+		<span class="icon-text">Поиск</span>
+	</button>
+	<button class="slide-search__close" id="search-close" type="button">
+		<b class="bt-icon bt-icon-cross1"></b> 
+	</button>
+</form>
+</div>
+
+
+      </div>
+	
+																						
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<nav class="master-menu js-master-menu" role="navigation" aria-hidden="true">
+					<div class="master-menu__content ">
+						<div class="row row--6-col">
+							<div class="col is-menu">
+							
+																	    <div class=" col is-menu">
+	
+			<h3 class=" menu-toggle js-menu-toggle section-heading">Категорії</h3>			
+            <ul class="master-menu__list nav-menu"  id="navigation_menu_1">
+<li class="master-menu__item item-154"><a href="/ua/news.html" >Новини</a></li><li class="master-menu__item item-155"><a href="/ua/analytics.html" >Статті</a></li><li class="master-menu__item item-580"><a href="/ua/priama-mova.html" >Пряма мова</a></li><li class="master-menu__item item-156"><a href="/ua/investigation.html" >Розслідування</a></li><li class="master-menu__item item-581"><a href="/ua/infographica.html" >Інфографіка</a></li><li class="master-menu__item item-157"><a href="/ua/dossiers.html" >Досьє</a></li><li class="master-menu__item item-582"><a href="/ua/video-photo-ua.html" >Відео/Фото</a></li><li class="master-menu__item item-584"><a href="/ua/reviews-ua.html" >Огляди</a></li><li class="master-menu__item item-583"><a href="/ua/banky-bankroty.html" >Банки-банкроти</a></li></ul>
+    </div>
+	
+																
+							</div>
+							<div class="col is-menu">
+							
+																	    <div class=" col is-menu">
+	
+			<h3 class=" menu-toggle js-menu-toggle section-heading">Спецпроєкти</h3>			
+            <ul class="master-menu__list nav-menu"  id="navigation_menu_5">
+<li class="master-menu__item item-161 deeper parent"><a href="/ua/projects.html" >Спецпроєкти<span class="navicon-inline"></span></a><ul class="cd-secondary-nav"><li class="master-menu__item item-149"><a href="/ua/projects/announcements.html" >Анонси</a></li><li class="master-menu__item item-158 parent"><a href="/ua/projects/banks.html" >Банки</a></li><li class="master-menu__item item-165"><a href="/ua/projects/kruglye-stoly.html" >Круглі столи</a></li><li class="master-menu__item item-150"><a href="/ua/projects/releases.html" >Релізи</a></li><li class="master-menu__item item-663"><a href="/ua/projects/finclubtalk.html" >FinClubTALK</a></li><li class="master-menu__item item-166"><a href="/ua/projects/zasedaniya-finansovogo-kluba.html" >Засідання «Фінансового клубу»</a></li><li class="master-menu__item item-585"><a href="/ua/projects/seminary-ua.html" >Семінари</a></li><li class="master-menu__item item-164"><a href="/ua/projects/konferentsii.html" >Конференції</a></li></ul></li><li class="master-menu__item item-668"><a href="/ua/finansovij-pres-klub.html" >Фінансовий пресклуб</a></li></ul>
+    </div>
+	
+																
+							</div>
+							<div class="col is-menu">
+							
+																	    <div class=" col is-menu">
+	
+			<h3 class=" menu-toggle js-menu-toggle section-heading">Спецтеми</h3>			
+            <ul class="master-menu__list nav-menu"  id="navigation_menu_2">
+<li class="master-menu__item item-681"><a href="/ua/voiennyi-bankinh.html" >Воєнний банкінг</a></li><li class="master-menu__item item-162"><a href="/ua/donbass-krym-war.html" >Донбас / Крим</a></li><li class="master-menu__item item-418"><a href="/ua/vse-pro-privatbank.html" >Хто відповість за ПриватБанк</a></li></ul>
+    </div>
+	
+																
+							</div>
+							<div class="col is-menu">
+							
+																	    <div class=" col is-menu">
+	
+			<h3 class=" menu-toggle js-menu-toggle section-heading">Премії</h3>			
+            <ul class="master-menu__list nav-menu"  id="navigation_menu_3">
+<li class="master-menu__item item-160"><a href="http://banksrating.com.ua/" target="_blank" >Рейтинг банків</a></li><li class="master-menu__item item-586"><a href="/ua/banki-roku.html" >Банки року</a></li><li class="master-menu__item item-587"><a href="/ua/financial-club-awards-2019.html" >Financial Club Awards</a></li><li class="master-menu__item item-588"><a href="/ua/finansove-vyznannia.html" >Фінансове визнання</a></li></ul>
+    </div>
+	
+																
+							</div>
+							<div class="col is-menu">
+																	    <div class=" col is-menu">
+	
+			<h3 class=" menu-toggle js-menu-toggle section-heading">Автори</h3>			
+            <ul class="master-menu__list nav-menu"  id="navigation_menu_4">
+<li class="master-menu__item item-159"><a href="/ua/blogs.html" >Автори</a></li></ul>
+    </div>
+	
+															</div>
+						</div>
+						
+						
+						<footer class="row menu-footer">
+							<div class="menu-footer__follow">
+								<h4 class="section-heading">Долучайтесь</h4>
+								<ul class="menu-footer__list menu-footer__list--follow">
+									<li class="menu-footer__item"><a href="https://www.facebook.com/finclub.net" tabindex="-1" target="_blank" rel="noopener"><i class="bt-icon-facebook"></i><span class="hide-at-mobile"> Facebook</span></a></li>
+									<li class="menu-footer__item"><a href="https://twitter.com/FinClub_ua" tabindex="-1" target="_blank" rel="noopener"><i class="bt-icon-twitter"></i><span class="hide-at-mobile"> Twitter</span></a></li>
+									<li class="menu-footer__item"><a href="https://www.linkedin.com/company/10268669" tabindex="-1" target="_blank" rel="noopener"><b class="fa fa-linkedin bt-icon-linkedin"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.5 21.5h-5v-13h5v13zM4 6.5C2.5 6.5 1.5 5.3 1.5 4s1-2.4 2.5-2.4c1.6 0 2.5 1 2.6 2.5 0 1.4-1 2.5-2.6 2.5zm11.5 6c-1 0-2 1-2 2v7h-5v-13h5V10s1.6-1.5 4-1.5c3 0 5 2.2 5 6.3v6.7h-5v-7c0-1-1-2-2-2z"/></svg></b><span class="hide-at-mobile"> Linkedin</span></a></li>
+									<li class="menu-footer__item"><a href="https://www.youtube.com/channel/UCrul2QWfL5WsmwPk_buqS2A" tabindex="-1" target="_blank" rel="noopener"><i class="bt-icon-youtube"></i><span class="hide-at-mobile"> Youtube</span></a></li>
+									<li class="menu-footer__item"><a href="https://invite.viber.com/?g2=AQBE%2B6uykfljgUuUR5vqfsV%2BO%2FWHlLLp8JrOWDQZ%2FShsz85txMnqn6uR8fINg46f&lang=ru" tabindex="-1" target="_blank" rel="noopener"><i class="bt-icon-whatsapp" aria-label="Finculb"></i><span class="hide-at-mobile"> Viber</span></a></li>
+									<li class="menu-footer__item"><a href="https://telegram.me/FinClub_ua" tabindex="-1" target="_blank" rel="noopener"><i class="bt-icon-telegram" aria-label="Finculb"></i><span class="hide-at-mobile"> Telegram</span></a></li>
+									  
+									<li class="menu-footer__item"><a href="https://finclub.net/all.html?format=feed" tabindex="-1"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"style="width: 12px; fill: red;">
+  <path d="M5 3a1 1 0 000 2c5.523 0 10 4.477 10 10a1 1 0 102 0C17 8.373 11.627 3 5 3z" />
+  <path d="M4 9a1 1 0 011-1 7 7 0 017 7 1 1 0 11-2 0 5 5 0 00-5-5 1 1 0 01-1-1zM3 15a2 2 0 114 0 2 2 0 01-4 0z" />
+</svg><span class="hide-at-mobile"> RSS</span></a></li>
+									
+									
+								</ul>
+								
+
+							</div>
+							<div class="menu-footer__actions">
+							
+								<!-- <ul class="menu-footer__list menu-footer__list--actions">
+									<li class="menu-footer__item">
+										<a href="#" target="_top">Мой кабинет</a>
+									</li>
+									<li class="menu-footer__item">
+										<a href="#" style="display: none;" class="politico-auth auth-logged-out" target="_top">Войти</a>
+										<a href="#" style="display: none;" class="politico-auth auth-logged-in" target="_blank">Выйти</a>
+									</li>
+								</ul> -->
+							</div>
+						</footer>
+					</div>
+				</nav>
+			</header>
+			<script src="https://finclub.net//templates/finclub/assets/js/header.js"></script>
+			<div class="banner-announce on-dark bgc--vulcan-gray13">
+				<section class="media-item orient--horizontal-fixed-fluid">
+					<div class="media-item__summary size--small is-inline">
+						<div class="coursess_container">
+						
+
+
+						
+						
+							
+							<div class="c-date">23.10.2023</div>
+							
+							
+							<div class="course-item"><span>USD</span> = <span>36.5401</span></div><div class="course-item"><span>EUR</span> = <span>38.7033</span></div><div class="course-item"><span>PLN</span> = <span>8.6674</span></div>							
+							<div class="course-item"><span>Облікова ставка НБУ = 20%</span></div>
+						</div>
+					</div>
+				</section>
+			</div>
+		</div>
+
+
+		<main class="page-content is-brandscape" role="main" id="main">
+			<div class="brandscape">
+				<a href="#" class="brandscape__graphic" style="background-image:url(https://finclub.net//templates/finclub/assets/img/branding.png); background-color:#fff;" target="_blank" aria-label="Read more about Finclub"></a>
+			</div> 
+			
+				
+			
+					
+		
+		
+	
+				
+			                
+	
+				<section class="page-content__row ">
+                    <div class="container layout--fixed-fluid-fixed">
+                        <div class="container__column left-main">
+                            <div class="container__row">
+                                <div class="container__slot">
+                                    <div class="content-group ad ">
+                                        <div class="ad-slot js-lazy-load flex vertical " id="pol-04" aria-hidden="true">
+										
+																				
+										
+										
+										</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+						<!-- main -->						
+						<div class="container__column center-main">
+							<div class="container__row">
+								<div class="container__slot">
+								
+																
+<ol itemscope itemtype="http://schema.org/BreadcrumbList" class="breadcrumb ">
+
+	<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemprop="item" href="/ua/" class="pathway"><span itemprop="name">Головна</span></a><meta itemprop="position" content="1" /><span class="delim">/</span></li><li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemprop="item" href="/ua/projects.html" class="pathway"><span itemprop="name">Спецпроєкти</span></a><meta itemprop="position" content="2" /><span class="delim">/</span></li><li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemprop="item" href="/ua/projects/banks.html" class="pathway"><span itemprop="name">Банки</span></a><meta itemprop="position" content="3" /><span class="delim">/</span></li></ol>
+  
+																
+																
+									<div id="system-message-container">
+	</div>
+
+									
+
+<!-- Start K2 Item Layout -->
+
+<article class="post type-post " itemscope itemtype="http://schema.org/NewsArticle">
+	<meta itemprop="inLanguage" content="uk-UA" />
+	<meta itemprop="mainEntityOfPage" content="https://finclub.net/ua/projects/banks/ukrhazbank/ukrhazbank-doiednavsia-do-merezhi-vitchyznianykh-bankiv-power-banking.html" />
+	<meta itemprop="description" content="Power banking – це об’єднана мережа банків, створена за ініціативи Національного банку, що налічує понад 1000 відділень по всій Україні. Ця ініціатива..."/>
+	
+		    
+    	
+	<picture class="aspect-ratio-169" itemprop="associatedMedia image" itemscope itemtype="http://schema.org/ImageObject" >
+		<!--[if IE 9]><video style="display: none"><![endif]-->
+		<source data-srcset="/media/k2/items/cache/a7cae8f38227567ca6d08cfded9b9e7e_M.jpg" media="(max-width: 425px)" />
+		<source data-srcset="/media/k2/items/cache/a7cae8f38227567ca6d08cfded9b9e7e_L.jpg" media="(max-width: 768px)" />
+		<source	data-srcset="/media/k2/items/cache/a7cae8f38227567ca6d08cfded9b9e7e_L.jpg" media="(max-width: 1024px)"/>
+		<source	data-srcset="/media/k2/items/cache/a7cae8f38227567ca6d08cfded9b9e7e_L.jpg" />
+		<!--[if IE 9]></video><![endif]-->
+		<img itemprop="contentUrl"
+			src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+			data-src="/media/k2/items/cache/a7cae8f38227567ca6d08cfded9b9e7e_M.jpg"
+			class="lazyload" 
+			alt="Укргазбанк доєднався до мережі вітчизняних банків power banking" />	
+
+		<meta itemprop="representativeOfPage" content="true">
+		<meta itemprop="url" content="https://finclub.net//media/k2/items/cache/a7cae8f38227567ca6d08cfded9b9e7e_M.jpg">
+			
+	</picture>	
+
+
+	
+        
+            
+			
+          
+	<div class="entry-wrapper">
+        <div class="entry-header">
+				
+                        <div class="entry-categories"><ul class="post-categories"><li>
+                <a rel="category" href="/ua/projects/banks/ukrhazbank.html">УКРГАЗБАНК</a>
+            </li></ul></div>
+            										
+                        <!-- Item title -->
+            <h1 class="entry-title" itemprop="headline">
+              Укргазбанк доєднався до мережі вітчизняних банків power banking          
+                          </h1>
+            		
+			<div class="entry-meta">
+			
+		        		        <div class="meta-item sdw-date"  itemprop="datePublished" content="2022-12-26T11:52:46+02:00">
+			        Понеділок, 26 грудня 2022 11:52		        </div>
+
+				<meta itemprop="dateModified" content="2022-12-26T11:52:46+02:00"></meta>
+		        		        
+		        		        <div class="meta-item sdw-author"><span class="vcard author" itemprop="author"><span class="fn">Автор&nbsp;
+			        			        <a rel="author" href="/ua/allua/author/267-finansoviyklub.html"> Фінансовий клуб</a>
+			        		        </span></span></div>
+		        
+                				
+				<div class="hidden" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+					<div itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
+						<meta itemprop="url" content="https://finclub.net//templates/finclub/images/finclub-logo.png">
+					</div>
+					<span itemprop="name">Финансовый клуб</span>
+				</div>				
+
+			</div>
+			
+		</div>
+
+	    <div class="entry-content"  itemprop="articleBody">
+
+									<!-- Item introtext -->
+			<div class="itemIntroText" >
+			  <p><strong>Power banking – це об’єднана мережа банків, створена за ініціативи Національного банку, що налічує понад 1000 відділень по всій Україні.</strong></p>
+			</div>
+									<!-- Item fulltext -->
+			<div class="itemFullText">
+			  
+<p>Ця ініціатива – спільна відповідь банківської системи на можливі виклики тривалої відсутності електроенергії та зв’язку (блекауту), та гарантія для клієнта будь-якого банку, що певний перелік нагальних банківських послуг буде доступний навіть у критичній ситуації.</p>
+<p>Мережа power banking (PB) буде працювати завдяки встановленню необхідного обладнання (генераторів, старлінків тощо), тож критично важливі сервіси будуть безперервно працювати в умовах блекауту.</p>
+<p>Наразі до PB входять всі 14 системних банків України, та планують долучитися інші банки. Перелік відділень постійно доповнюється і доступний за посиланням:&nbsp;<a href="https://bank.gov.ua/ua/consumer-protection/map-bank-branches">https://bank.gov.ua/ua/consumer-protection/map-bank-branches</a></p>
+<p>У відділеннях спільної мережі power banking діє спільний «банкоматний національний роумінг», що передбачає єдині збільшені ліміти та скасування комісії на зняття готівки з карток інших банків.</p>
+<p><strong>До уваги клієнтів!</strong></p>
+<p>Відділення банків РВ надають лише банківські послуги та не є «пунктами незламності». Вони не дублюють їх функціонал, тобто такі відділення не забезпечують обігрів, відпочинок громадян, харчування та зарядку електроприладів. На відміну від «пунктів незламності», з переліком яких можна ознайомитись за посиланням:&nbsp;<a href="https://nezlamnist.gov.ua/">https://nezlamnist.gov.ua/</a></p>
+<p>Перелік послуг, які надаватимуть відділення, що входять до спільної банківської мережі power banking під час блекауту:</p>
+<ul>
+<li>
+<p>Отримання готівки (банкомати, каса).</p>
+</li>
+<li>
+<p>Платежі, переказ коштів (каса, термінали самообслуговування).</p>
+</li>
+<li>
+<p>Обмін валют при наявності готівкової валюти в касі.</p>
+</li>
+<li>
+<p>Консультації менеджерів з фінансових питань тощо.</p>
+</li>
+</ul>
+<p>За більш детальною інформацією телефонуйте до нашого контакт-центру банку: 0 800 309 000.&nbsp;</p>
+<p>У разі збою зв’язку, платежі проводяться у звичайному режимі, але збільшується час зарахування коштів на рахунки.</p>
+<p>Мережа power banking – це приклад консолідації та партнерства банків України, адже ми обрали не конкуренцію, а щоденну координацію та обмін досвідом, щоб спільно протистояти викликам війни.</p>			</div>
+						 
+			  
+								
+				
+				
+								
+					<p class="item-soc-join"><strong>Підписуйтесь на новини FinClub</strong>&nbsp;в&nbsp;<a href="https://telegram.me/FinClub_ua">Telegram</a>,&nbsp;<a href="https://invite.viber.com/?g2=AQBE%2B6uykfljgUuUR5vqfsV%2BO%2FWHlLLp8JrOWDQZ%2FShsz85txMnqn6uR8fINg46f">Viber</a>,&nbsp;<a href="https://twitter.com/FinClub_ua">Twitter</a>,&nbsp;<a href="https://www.facebook.com/finclub.net/">Facebook</a></p>
+				
+				
+											
+			
+			
+
+		</div>
+		
+	<!---------   ###########################  --------->	
+	
+		
+	
+	<!---------   ###########################  --------->	
+	
+        <div class="meta-tags">
+        <span>теги</span>
+                    <a href="/ua/allua/tag/укргазбанк.html">#укргазбанк</a>
+                    <a href="/ua/allua/tag/power%20banking.html">#power banking</a>
+          	
+    </div>
+    	
+	<div class="entry-footer">
+	    <!-- <div class="meta-action sdw-comments"><a href="/">Add Comment</a></div> -->
+	    
+        <div class="meta-action sdw-share">
+		        <span>Поділитися</span>
+		        <ul class="sdw-share-items">
+			        <li><a class="icon social-share bt-icon-facebook" aria-label="FB"></a></li>
+					<li><a class="icon social-share bt-icon-twitter" aria-label="TW"></a></li>
+					
+					<li><a class="icon social-share bt-icon-linkedin" aria-label="IN"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.5 21.5h-5v-13h5v13zM4 6.5C2.5 6.5 1.5 5.3 1.5 4s1-2.4 2.5-2.4c1.6 0 2.5 1 2.6 2.5 0 1.4-1 2.5-2.6 2.5zm11.5 6c-1 0-2 1-2 2v7h-5v-13h5V10s1.6-1.5 4-1.5c3 0 5 2.2 5 6.3v6.7h-5v-7c0-1-1-2-2-2z"/></svg></a></li>
+					<li><a class="icon social-share bt-icon-telegram" aria-label="TG"></a></li>
+					<li><a class="icon social-share bt-icon-pinterest" aria-label="PN"></a></li>
+					<li><a class="icon social-share bt-icon-whatsapp" aria-label="VB"></a></li>
+					
+				</ul>
+        </div>
+		
+<script>
+(function($){
+	
+	setShareLinks();
+
+	function socialWindow(url) {
+	  var left = (screen.width - 570) / 2;
+	  var top = (screen.height - 570) / 2;
+	  var params = "menubar=no,toolbar=no,status=no,width=570,height=570,top=" + top + ",left=" + left;
+	  // Setting 'params' to an empty string will launch
+	  // content in a new tab or window rather than a pop-up.
+	  // params = "";
+	  window.open(url,"NewWindow",params);
+	}
+
+	function setShareLinks() {
+	  var pageUrl = encodeURIComponent(document.URL);
+	  var tweet = encodeURIComponent($("meta[property='og:description']").attr("content"));
+
+	  $(".social-share.bt-icon-facebook").on("click", function() {
+		url = "https://www.facebook.com/sharer.php?u=" + pageUrl;
+		socialWindow(url);
+	  });
+
+	  $(".social-share.bt-icon-twitter").on("click", function() {
+		url = "https://twitter.com/intent/tweet?url=" + pageUrl + "&text=" + tweet;
+		socialWindow(url);
+	  });
+
+	  $(".social-share.bt-icon-linkedin").on("click", function() {
+		url = "https://www.linkedin.com/shareArticle?mini=true&url=" + pageUrl;
+		socialWindow(url);
+	  })
+	  
+	  $(".social-share.bt-icon-telegram").on("click", function() {
+		url = "https://telegram.me/share/url?text=" + tweet + "&url=" + pageUrl;
+		socialWindow(url);
+	  })  
+	  
+	  $(".social-share.bt-icon-pinterest").on("click", function() {		
+		url = "http://pinterest.com/pin/create/button/?url=" + pageUrl + "&description=" + tweet;		
+		socialWindow(url);
+	  })  	
+	  
+	  $(".social-share.bt-icon-whatsapp").on("click", function() {		
+		url = "viber://forward?text=" + pageUrl;		
+		socialWindow(url);
+	  })  		  
+	  
+	}
+})(jQuery);	
+
+</script>		
+		
+		
+		
+		
+    </div>
+	
+    
+
+
+	<script type="text/JavaScript">
+		var disqus_identifier = '55593';
+		var disqus_title = 'Укргазбанк доєднався до мережі вітчизняних банків power banking';
+		var disqus_url = 'http://finclub.net//ua/projects/banks/ukrhazbank/ukrhazbank-doiednavsia-do-merezhi-vitchyznianykh-bankiv-power-banking.html';
+	</script>
+		  
+	<div id="disqus_thread"></div>
+	  
+
+    
+	</div>
+
+</article>
+
+
+<div class="sdw-post-separator sdw-post-separator-5 sdw-ps-show"></div>
+
+        
+        
+        	
+        <nav class="prev-next-nav">
+                    <div class="sdw-prev-link">
+            <a rel="prev" class="itemPrevious" href="/ua/projects/banks/ukrhazbank/uchasnikam-rinku-elektroenergiji-ukrgazbank-stav-drugim-bankom-upovnovazhenim-vidkrivati-ta-obslugovuvati-eskrou-rakhunki.html">
+                <span class="sdw-pn-ico"><i class="icon bt-icon-chevron-left"></i></span>
+                <span class="sdw-prev-next-link">Учасникам ринку електроенергії: Укргазбанк став другим банком, уповноваженим відкривати та обслуговувати ескроу-рахунки</span>
+            </a></div>
+        
+                    <div class="sdw-next-link">
+            <a rel="next" class="itemNext" href="/ua/projects/banks/ukrhazbank/vidkrivajte-rakhunok-dlya-biznesu-onlajn.html">            
+            <span class="sdw-prev-next-link">Відкривайте рахунок для бізнесу онлайн</span>
+			<span class="sdw-pn-ico"><i class="icon bt-icon-chevron-right"></i></span>			
+            </a></div>
+        
+    </nav>
+    
+        <div class="rel-sdw-box">
+    <h3 class="rel-box-title"><span>Схожі матеріали (за тегом)</span></h3>
+        <div class="sdw-box-inside by-tag">
+                    <article class="rel-item">
+		        
+		        				<div class="img-wrap">
+					<picture class="aspect-ratio-169">
+						<!--[if IE 9]><video style="display: none"><![endif]--> 
+						<source data-srcset="/media/k2/items/cache/29d4bfde29c261bdb7e397dcde27ba63_S.jpg" media="(max-width: 425px)" />
+						<source data-srcset="/media/k2/items/cache/29d4bfde29c261bdb7e397dcde27ba63_S.jpg" media="(max-width: 768px)" />
+						<source	data-srcset="/media/k2/items/cache/29d4bfde29c261bdb7e397dcde27ba63_S.jpg" /><!--[if IE 9]></video><![endif]-->
+					<img itemprop="image"
+							src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+							data-src="/media/k2/items/cache/29d4bfde29c261bdb7e397dcde27ba63_S.jpg"
+							class="lazyload"
+							alt="Прибуток Укргазбанку за 9 місяців сягнув майже 3 млрд грн" />
+					</picture>					
+				</div>
+					
+                    <div class="entry-wrapper">
+                        <div class="entry-header">
+					        				          
+				            				            <h3 class="entry-title"><a class="itemRelTitle" href="/ua/news/prybutok-ukrhazbanku-za-9-misiatsiv-siahnuv-maizhe-3-mlrd-hrn.html">Прибуток Укргазбанку за 9 місяців сягнув майже 3 млрд грн</a></h3>
+				            				        </div>        
+	                </div>
+	                
+            </article>					
+		            <article class="rel-item">
+		        
+		        				<div class="img-wrap">
+					<picture class="aspect-ratio-169">
+						<!--[if IE 9]><video style="display: none"><![endif]--> 
+						<source data-srcset="/media/k2/items/cache/429f85d7965e9e62e03642315620b888_S.jpg" media="(max-width: 425px)" />
+						<source data-srcset="/media/k2/items/cache/429f85d7965e9e62e03642315620b888_S.jpg" media="(max-width: 768px)" />
+						<source	data-srcset="/media/k2/items/cache/429f85d7965e9e62e03642315620b888_S.jpg" /><!--[if IE 9]></video><![endif]-->
+					<img itemprop="image"
+							src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+							data-src="/media/k2/items/cache/429f85d7965e9e62e03642315620b888_S.jpg"
+							class="lazyload"
+							alt="Завершено слідство у справі Укргазбанку на 206 млн грн" />
+					</picture>					
+				</div>
+					
+                    <div class="entry-wrapper">
+                        <div class="entry-header">
+					        				          
+				            				            <h3 class="entry-title"><a class="itemRelTitle" href="/ua/news/slidstvo-u-spravi-ukrhazbanku-zavershyly.html">Завершено слідство у справі Укргазбанку на 206 млн грн</a></h3>
+				            				        </div>        
+	                </div>
+	                
+            </article>					
+		            <article class="rel-item">
+		        
+		        				<div class="img-wrap">
+					<picture class="aspect-ratio-169">
+						<!--[if IE 9]><video style="display: none"><![endif]--> 
+						<source data-srcset="/media/k2/items/cache/3f6d0029f67ffe49c26f5131d5966f46_S.jpg" media="(max-width: 425px)" />
+						<source data-srcset="/media/k2/items/cache/3f6d0029f67ffe49c26f5131d5966f46_S.jpg" media="(max-width: 768px)" />
+						<source	data-srcset="/media/k2/items/cache/3f6d0029f67ffe49c26f5131d5966f46_S.jpg" /><!--[if IE 9]></video><![endif]-->
+					<img itemprop="image"
+							src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+							data-src="/media/k2/items/cache/3f6d0029f67ffe49c26f5131d5966f46_S.jpg"
+							class="lazyload"
+							alt="Укргазбанк реструктуризував борги &laquo;Нібулона&raquo;" />
+					</picture>					
+				</div>
+					
+                    <div class="entry-wrapper">
+                        <div class="entry-header">
+					        				          
+				            				            <h3 class="entry-title"><a class="itemRelTitle" href="/ua/news/ukrhazbank-ta-nibulon-domovylys-pro-restrukturyzatsiiu-borhiv.html">Укргазбанк реструктуризував борги «Нібулона»</a></h3>
+				            				        </div>        
+	                </div>
+	                
+            </article>					
+		            <article class="rel-item">
+		        
+		        				<div class="img-wrap">
+					<picture class="aspect-ratio-169">
+						<!--[if IE 9]><video style="display: none"><![endif]--> 
+						<source data-srcset="/media/k2/items/cache/bcafec78aaf96cfe5d6c34494a7781e8_S.jpg" media="(max-width: 425px)" />
+						<source data-srcset="/media/k2/items/cache/bcafec78aaf96cfe5d6c34494a7781e8_S.jpg" media="(max-width: 768px)" />
+						<source	data-srcset="/media/k2/items/cache/bcafec78aaf96cfe5d6c34494a7781e8_S.jpg" /><!--[if IE 9]></video><![endif]-->
+					<img itemprop="image"
+							src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+							data-src="/media/k2/items/cache/bcafec78aaf96cfe5d6c34494a7781e8_S.jpg"
+							class="lazyload"
+							alt="Укргазбанк здійснив торговельне фінансування &laquo;Укрнафти&raquo;" />
+					</picture>					
+				</div>
+					
+                    <div class="entry-wrapper">
+                        <div class="entry-header">
+					        				          
+				            				            <h3 class="entry-title"><a class="itemRelTitle" href="/ua/news/ukrhazbank-zdiisnyv-torhovelne-finansuvannia-ukrnafty.html">Укргазбанк здійснив торговельне фінансування «Укрнафти»</a></h3>
+				            				        </div>        
+	                </div>
+	                
+            </article>					
+		            <article class="rel-item">
+		        
+		        				<div class="img-wrap">
+					<picture class="aspect-ratio-169">
+						<!--[if IE 9]><video style="display: none"><![endif]--> 
+						<source data-srcset="/media/k2/items/cache/0ef28d09afb01e5f7797288f981afaf3_S.jpg" media="(max-width: 425px)" />
+						<source data-srcset="/media/k2/items/cache/0ef28d09afb01e5f7797288f981afaf3_S.jpg" media="(max-width: 768px)" />
+						<source	data-srcset="/media/k2/items/cache/0ef28d09afb01e5f7797288f981afaf3_S.jpg" /><!--[if IE 9]></video><![endif]-->
+					<img itemprop="image"
+							src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+							data-src="/media/k2/items/cache/0ef28d09afb01e5f7797288f981afaf3_S.jpg"
+							class="lazyload"
+							alt="Прибуток Укргазбанку з початку року сягнув 2,9 млрд грн" />
+					</picture>					
+				</div>
+					
+                    <div class="entry-wrapper">
+                        <div class="entry-header">
+					        				          
+				            				            <h3 class="entry-title"><a class="itemRelTitle" href="/ua/news/prybutok-ukrhazbanku-z-pochatku-roku-siahnuv-2-9-mlrd-hrn.html">Прибуток Укргазбанку з початку року сягнув 2,9 млрд грн</a></h3>
+				            				        </div>        
+	                </div>
+	                
+            </article>					
+			    </div>
+    </div>
+    
+  
+  
+    
+    
+<script>
+    var disqus_shortname = 'finclub';    
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })(); 
+
+</script>
+
+
+
+
+  
+
+<!-- JoomlaWorks "K2" (v2.10.3) | Learn more about K2 at https://getk2.org -->
+
+
+								  
+								  								
+								
+								
+								</div>
+							</div>
+						</div>		
+
+
+						<!-- Aside -->
+						<div class="container__column right-main">
+							<div class="container__row">
+								<div class="container__slot aside__column">
+	
+																		
+<div class="aside-slider-wrapper">
+
+	<header class="summary-header">
+		<h4 class="category">Релізи</h4>
+	</header>
+
+	<div class="sdw-post-slider">
+			<div class="post-slide-item">
+						  
+		 
+
+				
+		<picture class="aspect-ratio-43">
+			<!--[if IE 9]><video style="display: none"><![endif]--> 
+			<source data-srcset="/media/k2/items/cache/9fe6fbadcc14a7d92880efbc6beea607_M.jpg" media="(max-width: 425px)" />
+			<source data-srcset="/media/k2/items/cache/9fe6fbadcc14a7d92880efbc6beea607_L.jpg" media="(max-width: 768px)" />
+			<source	data-srcset="/media/k2/items/cache/9fe6fbadcc14a7d92880efbc6beea607_L.jpg" /><!--[if IE 9]></video><![endif]-->
+		<img itemprop="image"
+				src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+				data-src="/media/k2/items/cache/9fe6fbadcc14a7d92880efbc6beea607_M.jpg"
+				class="lazyload"
+				alt="Протестуйте кредитну картку Gold та отримайте до 150 грн з акцією &laquo;Давай РАЗОМ&raquo;" />
+		</picture>
+		
+				
+		<div class="card-info">
+			<a class="featured_image_sidebar" href="/ua/projects/banks/bank-kredyt-dnipro/protestuite-kredytnu-kartku-gold-ta-otrymaite-do-150-hrn-z-aktsiieiu-davai-razom.html" title="Детальніше... &quot;Протестуйте кредитну картку Gold та отримайте до 150 грн з акцією &laquo;Давай РАЗОМ&raquo;&quot;">
+				<div class="card-title">
+					<h4 class="h3-card-title">Протестуйте кредитну картку Gold та отримайте до 150 грн з акцією «Давай РАЗОМ»</h4>                               
+				</div>         
+						
+			</a>
+		</div>
+
+	</div>
+		<div class="post-slide-item">
+						  
+		 
+
+				
+		<picture class="aspect-ratio-43">
+			<!--[if IE 9]><video style="display: none"><![endif]--> 
+			<source data-srcset="/media/k2/items/cache/9d126c7bd6394e07ccc464f95def5bef_M.jpg" media="(max-width: 425px)" />
+			<source data-srcset="/media/k2/items/cache/9d126c7bd6394e07ccc464f95def5bef_L.jpg" media="(max-width: 768px)" />
+			<source	data-srcset="/media/k2/items/cache/9d126c7bd6394e07ccc464f95def5bef_L.jpg" /><!--[if IE 9]></video><![endif]-->
+		<img itemprop="image"
+				src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+				data-src="/media/k2/items/cache/9d126c7bd6394e07ccc464f95def5bef_M.jpg"
+				class="lazyload"
+				alt="Вже незабаром клієнтам ПУМБ стане доступна державна програма підтримки &laquo;Доступний факторинг&raquo;" />
+		</picture>
+		
+				
+		<div class="card-info">
+			<a class="featured_image_sidebar" href="/ua/projects/banks/pumb/vzhe-nezabarom-kliientam-pumb-stane-dostupna-derzhavna-prohrama-pidtrymky-dostupnyi-faktorynh.html" title="Детальніше... &quot;Вже незабаром клієнтам ПУМБ стане доступна державна програма підтримки &laquo;Доступний факторинг&raquo;&quot;">
+				<div class="card-title">
+					<h4 class="h3-card-title">Вже незабаром клієнтам ПУМБ стане доступна державна програма підтримки «Доступний факторинг»</h4>                               
+				</div>         
+						
+			</a>
+		</div>
+
+	</div>
+		<div class="post-slide-item">
+						  
+		 
+
+				
+		<picture class="aspect-ratio-43">
+			<!--[if IE 9]><video style="display: none"><![endif]--> 
+			<source data-srcset="/media/k2/items/cache/2961b70c2ee8a73fe5ab0a2025032621_M.jpg" media="(max-width: 425px)" />
+			<source data-srcset="/media/k2/items/cache/2961b70c2ee8a73fe5ab0a2025032621_L.jpg" media="(max-width: 768px)" />
+			<source	data-srcset="/media/k2/items/cache/2961b70c2ee8a73fe5ab0a2025032621_L.jpg" /><!--[if IE 9]></video><![endif]-->
+		<img itemprop="image"
+				src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+				data-src="/media/k2/items/cache/2961b70c2ee8a73fe5ab0a2025032621_M.jpg"
+				class="lazyload"
+				alt="Цифрова зарплатна картка стала доступна клієнтам&nbsp;Sense&nbsp;Bank&nbsp;&nbsp;&nbsp;" />
+		</picture>
+		
+				
+		<div class="card-info">
+			<a class="featured_image_sidebar" href="/ua/projects/banks/alfa-bank/tsyfrova-zarplatna-kartka-stala-dostupna-kliientam-sense-bank.html" title="Детальніше... &quot;Цифрова зарплатна картка стала доступна клієнтам&nbsp;Sense&nbsp;Bank&nbsp;&nbsp;&nbsp;&quot;">
+				<div class="card-title">
+					<h4 class="h3-card-title">Цифрова зарплатна картка стала доступна клієнтам Sense Bank   </h4>                               
+				</div>         
+						
+			</a>
+		</div>
+
+	</div>
+			</div>
+
+</div>
+		 		
+			
+		 		
+			
+		  
+<div class="media-item__summary size--large ">
+	<header class="summary-header">
+		<p class="category">ТОП-новости</p>
+	</header>
+	<div class="summary-footer">	
+		<ul class="summary-list aside-news">
+							<li class="newsBlock  featured">
+					  
+				<a class="sdw-post-link" href="/ua/news/ifc-znaide-usd1-mlrd-dlia-ukrainskoho-msb.html">IFC знайде $1 млрд для українського МСБ</a>
+					
+				      
+
+			</li>
+					<li class="newsBlock  featured">
+					  
+				<a class="sdw-post-link" href="/ua/news/nbu-poiasnyv-iak-diiatyme-novyi-finmonitorynh-pepiv.html">НБУ пояснив, як діятиме новий фінмоніторинг PEPів</a>
+					
+				      
+
+			</li>
+					<li class="newsBlock  featured">
+					  
+				<a class="sdw-post-link" href="/ua/news/ukraina-vykorystala-areshtovani-hroshi-bankiv-rf-dlia-vyplaty-kompensatsii.html">Україна використала вилучені гроші банків рф для виплати компенсацій</a>
+					
+				      
+
+			</li>
+					<li class="newsBlock  featured">
+					  
+				<a class="sdw-post-link" href="/ua/news/rosiiu-vykliuchyly-zi-spilnoty-finansovykh-rozvidok-svitu.html">росію виключили зі спільноти фінансових розвідок світу</a>
+					
+				      
+
+			</li>
+					<li class="newsBlock  featured">
+					  
+				<a class="sdw-post-link" href="/ua/news/nbu-rozshyriuie-perelik-benchmarkovdp-z-11-lystopada.html">НБУ розширює перелік бенчмарк-ОВДП з 11 листопада</a>
+					
+				      
+
+			</li>
+					<li class="newsBlock  featured">
+					  
+				<a class="sdw-post-link" href="/ua/news/mizhnarodni-kompanii-pererakhuvaly-do-derzhbiudzhetu-10-2-mlrd-hrn-podatku-na-google.html">Міжнародні компанії перерахували до держбюджету 10,2 млрд грн «податку на Google»</a>
+					
+				      
+
+			</li>
+					<li class="newsBlock  featured">
+					  
+				<a class="sdw-post-link" href="/ua/news/inozemni-partnery-nadaly-4-2-mlrd-ievro-ukrainskomu-biznesu.html">Іноземні партнери надали 4,2 млрд євро українському бізнесу</a>
+					
+				      
+
+			</li>
+					<li class="newsBlock  featured">
+					  
+				<a class="sdw-post-link" href="/ua/news/rada-skhvalyla-v-pershomu-chytanni-zakonoproiekt-pro-pidvyshchennia-podatku-na-prybutok-dlia-bankiv.html">Рада схвалила в першому читанні підвищення податку на прибуток для банків</a>
+					
+				      
+
+			</li>
+					<li class="newsBlock  featured">
+					  
+				<a class="sdw-post-link" href="/ua/news/deputaty-ukhvalyly-biudzhet-u-pershomu-chytanni.html">Депутати ухвалили бюджет-2024 у першому читанні</a>
+					
+				      
+
+			</li>
+					<li class="newsBlock  featured">
+					  
+				<a class="sdw-post-link" href="/ua/news/biznes-ochikuie-valiutnyi-kurs-40-hrn-usd.html">Бізнес очікує валютний курс 40 грн/$</a>
+					
+				      
+
+			</li>
+						</ul>
+	</div>		 		
+</div> 		
+			
+		      <div class="module  widget">
+                        <h4 class="widget-title"><span>Долучайтесь</span></h4>
+                        <ul class="mks_social_widget_ul">
+<li><a href="https://www.facebook.com/finclub.net" class="facebook_ico soc_circle" target="_blank" rel="noopener noreferrer" aria-label="Finculb"><i class="bt-icon-facebook"></i></a></li>
+<li><a href="https://twitter.com/FinClub_ua" class="twitter_ico soc_circle" target="_blank" rel="noopener noreferrer" aria-label="Finculb"><i class="bt-icon-twitter"></i></a></li>
+<li><a href="https://www.linkedin.com/company/10268669?trk=hp-feed-company-photo" class="linkedin_ico soc_circle bt-icon-linkedin" target="_blank" rel="noopener noreferrer" aria-label="Finculb"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M6.5 21.5h-5v-13h5v13zM4 6.5C2.5 6.5 1.5 5.3 1.5 4s1-2.4 2.5-2.4c1.6 0 2.5 1 2.6 2.5 0 1.4-1 2.5-2.6 2.5zm11.5 6c-1 0-2 1-2 2v7h-5v-13h5V10s1.6-1.5 4-1.5c3 0 5 2.2 5 6.3v6.7h-5v-7c0-1-1-2-2-2z"></path></svg></a></li>
+<li><a href="https://www.youtube.com/channel/UCrul2QWfL5WsmwPk_buqS2A" class="youtube_ico soc_circle" target="_blank" rel="noopener noreferrer" aria-label="Finculb"><i class="bt-icon-youtube"></i></a></li>
+<li><a href="https://telegram.me/FinClub_ua" class="telegram_ico soc_circle" target="_blank" rel="noopener noreferrer"><i class="bt-icon-telegram" aria-label="Finculb"></i></a></li>
+<li><a href="https://invite.viber.com/?g2=AQBE%2B6uykfljgUuUR5vqfsV%2BO%2FWHlLLp8JrOWDQZ%2FShsz85txMnqn6uR8fINg46f&lang=ru" class="viber_ico soc_circle" target="_blank" rel="noopener noreferrer"><i class="bt-icon-whatsapp" aria-label="Finculb"></i></a></li>
+</ul>    </div>
+	    <div class="module ">
+                        <h4 class="widget-title"><span>Підписатися на розсилку Фінклубу</span></h4>
+                        <noscript><div class="alert alert-danger">Warning! JavaScript must be enabled for this form to work properly.</div></noscript>
+<div class="visforms visforms-form">
+
+        
+    <div class="alert alert-danger error-note" style="display: none;"></div>    <script type="text/javascript">
+        jQuery(document).ready(function () {
+                jQuery('#mod-visform3').validate({
+                    submitHandler: function (form) {
+                        var returnVal = true;
+                        if (window["mod-visform3SubmitAction"] && typeof window["mod-visform3SubmitAction"] !== "undefined") {
+                            returnVal = window["mod-visform3SubmitAction"](this);
+                        }
+                        if (!returnVal) {
+                            return false;
+                        }
+                        form.submit();
+                        jQuery(form).find('input[type="submit"]').prop("disabled", true);
+                        jQuery(form).find('input[type="reset"]').prop("disabled", true);
+                        jQuery(form).find('input[type="image"]').prop("disabled", true);
+                                            },
+                    wrapper: "p",
+                    //absolutly necessary when working with tinymce!
+                    ignore: ".ignore",
+                    rules: { "modvisform171email" : {minlength: 3,},                    },
+                    messages: {                     },
+                    //in accordion view, display a summary message, that form contains errors
+                                        errorPlacement: function (error, element) {
+                        var errorfieldid = element.attr("data-error-container-id");
+                        if (!errorfieldid && element.attr("id") === "g-recaptcha-response") {
+                            errorfieldid = 'fc-tbxrecaptcha_response_field';
+                        }
+                        jQuery('#mod-visform3' + ' div.' + errorfieldid).html('');
+                        error.appendTo('#mod-visform3' + ' div.' + errorfieldid);
+                        error.addClass("errorcontainer");
+                    },
+                });
+
+            jQuery('.captcharefresh3').on(
+                'click', function () {
+                    if (jQuery('#captchacode3')) {
+                        jQuery('#captchacode3').attr('src', '/index.php?option=com_visforms&task=visforms.captcha&sid=' + Math.random() + '&id=3');
+                    }
+                });
+                jQuery('#mod-visform3').initVisform({
+                    visform: {"fid":"3","initEditor":false,"parentFormId":"mod-visform3","steps":1,"nbFields":2,"summaryLayout":"table","summaryLayoutClass":"table","summaryRowLayout":"tr","oSummaryFirstElementLayout":"<td>","cSummaryFirstElementLayout":"<\/td>","oSummarySecondElementLayout":"<td>","cSummarySecondElementLayout":"<\/td>","displaysummarypage":false,"hideemptyfieldsinsummary":false,"summaryemptycaliszero":false,"fields":{"0":{"id":10,"type":"email","label":"Email"},"1":{"id":11,"type":"submit","label":"\u0412\u0456\u0434\u043f\u0440\u0430\u0432\u0438\u0442\u0438"}}},
+                    restrictData: {},
+                    userInputs:  [{"type":"email","label":"field10","value":"","isDisabled":false,"isForbidden":false}]});
+        });
+    </script>
+ <form action="/index.php?option=com_visforms&amp;task=visforms.send&amp;id=3" method="post" name="visform"
+	id="mod-visform3" 
+	class="visform bthorizontal subform form-horizontal " role="form"> <fieldset class="fieldset-1 active"><div class="fc-tbxfield10"></div> <div class="control-group field10 required"><span class=" control-label "></span><label class="  control-label  " id="modvisform171emaillbl" for="field10" style="display: none;">Email</label><div class="controls"><input class="" id="field10" data-error-container-id="fc-tbxfield10" aria-labelledby="modvisform171emaillbl" name="modvisform171email" placeholder="Ваш email" aria-required="true" required="required" value="" type="email"/></div></div> <div class="form-actions"><input class="btn " id="field11" aria-label="Відправити" value="Відправити" disabled="disabled" name="modvisform171send" type="submit"/>&nbsp;</div></fieldset>    <input type="hidden" name="return" value="aHR0cHM6Ly9maW5jbHViLm5ldC91YS9wcm9qZWN0cy9iYW5rcy91a3JoYXpiYW5rL3VrcmhhemJhbmstZG9pZWRuYXZzaWEtZG8tbWVyZXpoaS12aXRjaHl6bmlhbnlraC1iYW5raXYtcG93ZXItYmFua2luZy5odG1s" />
+	<input type="hidden" value="3" name="postid" />
+	<input type="hidden" value="modvisform171" name="context" />
+	<input type="hidden" value="pagebreak" name="addSupportedFieldType[]" />
+	<input type="hidden" name="14baea7fe174b7cf689b9babbb753fb0" value="1" /></form>
+</div>
+    </div>
+	
+<div class="aside-slider-wrapper">
+
+	<header class="summary-header">
+		<h4 class="category">Відео/Фото</h4>
+	</header>
+
+	<div class="sdw-post-slider">
+			<div class="post-slide-item">
+						  
+		 
+
+				
+		<picture class="aspect-ratio-43">
+			<!--[if IE 9]><video style="display: none"><![endif]--> 
+			<source data-srcset="/media/k2/items/cache/b8d6dec6346960cdfb33025f7360e057_M.jpg" media="(max-width: 425px)" />
+			<source data-srcset="/media/k2/items/cache/b8d6dec6346960cdfb33025f7360e057_L.jpg" media="(max-width: 768px)" />
+			<source	data-srcset="/media/k2/items/cache/b8d6dec6346960cdfb33025f7360e057_L.jpg" /><!--[if IE 9]></video><![endif]-->
+		<img itemprop="image"
+				src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+				data-src="/media/k2/items/cache/b8d6dec6346960cdfb33025f7360e057_M.jpg"
+				class="lazyload"
+				alt="Фотографії з нагородження &laquo;Банки року &ndash; 2023&raquo;" />
+		</picture>
+		
+				
+		<div class="card-info">
+			<a class="featured_image_sidebar" href="/ua/banki-roku/fotohrafii-z-nahorodzhennia-banky-roku-2023.html" title="Детальніше... &quot;Фотографії з нагородження &laquo;Банки року &ndash; 2023&raquo;&quot;">
+				<div class="card-title">
+					<h4 class="h3-card-title">Фотографії з нагородження «Банки року – 2023»</h4>                               
+				</div>         
+						
+			</a>
+		</div>
+
+	</div>
+		<div class="post-slide-item">
+						  
+		 
+
+				
+		<picture class="aspect-ratio-43">
+			<!--[if IE 9]><video style="display: none"><![endif]--> 
+			<source data-srcset="/media/k2/items/cache/5dbb03eabf1a4de5c8a68cdd17245c8e_M.jpg" media="(max-width: 425px)" />
+			<source data-srcset="/media/k2/items/cache/5dbb03eabf1a4de5c8a68cdd17245c8e_L.jpg" media="(max-width: 768px)" />
+			<source	data-srcset="/media/k2/items/cache/5dbb03eabf1a4de5c8a68cdd17245c8e_L.jpg" /><!--[if IE 9]></video><![endif]-->
+		<img itemprop="image"
+				src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+				data-src="/media/k2/items/cache/5dbb03eabf1a4de5c8a68cdd17245c8e_M.jpg"
+				class="lazyload"
+				alt="&laquo;Фінансовий клуб&raquo; нагородив лідерів банківського ринку (презентація)" />
+		</picture>
+		
+				
+		<div class="card-info">
+			<a class="featured_image_sidebar" href="/ua/financial-club-awards-2019/finansovyi-klub-nahorodyv-lideriv-bankivskoho-rynku-prezentatsiia.html" title="Детальніше... &quot;&laquo;Фінансовий клуб&raquo; нагородив лідерів банківського ринку (презентація)&quot;">
+				<div class="card-title">
+					<h4 class="h3-card-title">«Фінансовий клуб» нагородив лідерів банківського ринку (презентація)</h4>                               
+				</div>         
+						
+			</a>
+		</div>
+
+	</div>
+		<div class="post-slide-item">
+						  
+		 
+
+				
+		<picture class="aspect-ratio-43">
+			<!--[if IE 9]><video style="display: none"><![endif]--> 
+			<source data-srcset="/media/k2/items/cache/afde8c6acaeeb4a0a2994a3556c8a439_M.jpg" media="(max-width: 425px)" />
+			<source data-srcset="/media/k2/items/cache/afde8c6acaeeb4a0a2994a3556c8a439_L.jpg" media="(max-width: 768px)" />
+			<source	data-srcset="/media/k2/items/cache/afde8c6acaeeb4a0a2994a3556c8a439_L.jpg" /><!--[if IE 9]></video><![endif]-->
+		<img itemprop="image"
+				src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+				data-src="/media/k2/items/cache/afde8c6acaeeb4a0a2994a3556c8a439_M.jpg"
+				class="lazyload"
+				alt="Пів року війни: стан та перспективи банківського сектору (онлайн-трансляція)" />
+		</picture>
+		
+				
+		<div class="card-info">
+			<a class="featured_image_sidebar" href="/ua/video-photo-ua/piv-roku-viiny-stan-ta-perspektyvy-bankivskoho-sektoru-online.html" title="Детальніше... &quot;Пів року війни: стан та перспективи банківського сектору (онлайн-трансляція)&quot;">
+				<div class="card-title">
+					<h4 class="h3-card-title">Пів року війни: стан та перспективи банківського сектору (онлайн-трансляція)</h4>                               
+				</div>         
+						
+			</a>
+		</div>
+
+	</div>
+			</div>
+
+</div>
+		 		
+			
+		 		
+			
+		  
+<div class="aside-slider-wrapper">
+
+	<header class="summary-header">
+		<h4 class="category">Інфографіка</h4>
+	</header>
+
+	<div class="sdw-post-slider">
+			<div class="post-slide-item">
+						  
+		 
+
+				
+		<picture class="aspect-ratio-43">
+			<!--[if IE 9]><video style="display: none"><![endif]--> 
+			<source data-srcset="/media/k2/items/cache/24853646c0b4906eddefa5b09d3f37ab_M.jpg" media="(max-width: 425px)" />
+			<source data-srcset="/media/k2/items/cache/24853646c0b4906eddefa5b09d3f37ab_L.jpg" media="(max-width: 768px)" />
+			<source	data-srcset="/media/k2/items/cache/24853646c0b4906eddefa5b09d3f37ab_L.jpg" /><!--[if IE 9]></video><![endif]-->
+		<img itemprop="image"
+				src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+				data-src="/media/k2/items/cache/24853646c0b4906eddefa5b09d3f37ab_M.jpg"
+				class="lazyload"
+				alt="Інфляція стала головною економічною проблемою світу" />
+		</picture>
+		
+				
+		<div class="card-info">
+			<a class="featured_image_sidebar" href="/ua/infographica/infliatsiia-stala-holovnoiu-ekonomichnoiu-problemoiu-svitu.html" title="Детальніше... &quot;Інфляція стала головною економічною проблемою світу&quot;">
+				<div class="card-title">
+					<h4 class="h3-card-title">Інфляція стала головною економічною проблемою світу</h4>                               
+				</div>         
+						
+			</a>
+		</div>
+
+	</div>
+		<div class="post-slide-item">
+						  
+		 
+
+				
+		<picture class="aspect-ratio-43">
+			<!--[if IE 9]><video style="display: none"><![endif]--> 
+			<source data-srcset="/media/k2/items/cache/dd4ac79c570b6d768e708c13d14803ca_M.jpg" media="(max-width: 425px)" />
+			<source data-srcset="/media/k2/items/cache/dd4ac79c570b6d768e708c13d14803ca_L.jpg" media="(max-width: 768px)" />
+			<source	data-srcset="/media/k2/items/cache/dd4ac79c570b6d768e708c13d14803ca_L.jpg" /><!--[if IE 9]></video><![endif]-->
+		<img itemprop="image"
+				src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+				data-src="/media/k2/items/cache/dd4ac79c570b6d768e708c13d14803ca_M.jpg"
+				class="lazyload"
+				alt="Як роздаються доступні кредити під час війни" />
+		</picture>
+		
+				
+		<div class="card-info">
+			<a class="featured_image_sidebar" href="/ua/infographica/yak-rozdaiutsia-pilhovi-kredyty-pid-chas-viiny.html" title="Детальніше... &quot;Як роздаються доступні кредити під час війни&quot;">
+				<div class="card-title">
+					<h4 class="h3-card-title">Як роздаються доступні кредити під час війни</h4>                               
+				</div>         
+						
+			</a>
+		</div>
+
+	</div>
+		<div class="post-slide-item">
+						  
+		 
+
+				
+		<picture class="aspect-ratio-43">
+			<!--[if IE 9]><video style="display: none"><![endif]--> 
+			<source data-srcset="/media/k2/items/cache/ebd00493b30e391bccc33592ddbb6e3b_M.jpg" media="(max-width: 425px)" />
+			<source data-srcset="/media/k2/items/cache/ebd00493b30e391bccc33592ddbb6e3b_L.jpg" media="(max-width: 768px)" />
+			<source	data-srcset="/media/k2/items/cache/ebd00493b30e391bccc33592ddbb6e3b_L.jpg" /><!--[if IE 9]></video><![endif]-->
+		<img itemprop="image"
+				src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+				data-src="/media/k2/items/cache/ebd00493b30e391bccc33592ddbb6e3b_M.jpg"
+				class="lazyload"
+				alt="Скільки заробляють топменеджери державних банків" />
+		</picture>
+		
+				
+		<div class="card-info">
+			<a class="featured_image_sidebar" href="/ua/infographica/skilki-zaroblyayut-topmenedzheri-derzhavnikh-bankiv.html" title="Детальніше... &quot;Скільки заробляють топменеджери державних банків&quot;">
+				<div class="card-title">
+					<h4 class="h3-card-title">Скільки заробляють топменеджери державних банків</h4>                               
+				</div>         
+						
+			</a>
+		</div>
+
+	</div>
+		<div class="post-slide-item">
+						  
+		 
+
+				
+		<picture class="aspect-ratio-43">
+			<!--[if IE 9]><video style="display: none"><![endif]--> 
+			<source data-srcset="/media/k2/items/cache/ec318799008cdc8859b83e356772ccee_M.jpg" media="(max-width: 425px)" />
+			<source data-srcset="/media/k2/items/cache/ec318799008cdc8859b83e356772ccee_L.jpg" media="(max-width: 768px)" />
+			<source	data-srcset="/media/k2/items/cache/ec318799008cdc8859b83e356772ccee_L.jpg" /><!--[if IE 9]></video><![endif]-->
+		<img itemprop="image"
+				src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+				data-src="/media/k2/items/cache/ec318799008cdc8859b83e356772ccee_M.jpg"
+				class="lazyload"
+				alt="Що відбулося з Україною: найголовніші графіки 2021 року" />
+		</picture>
+		
+				
+		<div class="card-info">
+			<a class="featured_image_sidebar" href="/ua/infographica/shcho-vidbulosia-z-ukrainoiu-naiholovnishi-hrafiky-2021-roku.html" title="Детальніше... &quot;Що відбулося з Україною: найголовніші графіки 2021 року&quot;">
+				<div class="card-title">
+					<h4 class="h3-card-title">Що відбулося з Україною: найголовніші графіки 2021 року</h4>                               
+				</div>         
+						
+			</a>
+		</div>
+
+	</div>
+		<div class="post-slide-item">
+						  
+		 
+
+				
+		<picture class="aspect-ratio-43">
+			<!--[if IE 9]><video style="display: none"><![endif]--> 
+			<source data-srcset="/media/k2/items/cache/32dd29a3d879586f9dbe3ca5f3e4fe4e_M.jpg" media="(max-width: 425px)" />
+			<source data-srcset="/media/k2/items/cache/32dd29a3d879586f9dbe3ca5f3e4fe4e_L.jpg" media="(max-width: 768px)" />
+			<source	data-srcset="/media/k2/items/cache/32dd29a3d879586f9dbe3ca5f3e4fe4e_L.jpg" /><!--[if IE 9]></video><![endif]-->
+		<img itemprop="image"
+				src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+				data-src="/media/k2/items/cache/32dd29a3d879586f9dbe3ca5f3e4fe4e_M.jpg"
+				class="lazyload"
+				alt="7 трендів року коронакризи на фінансовому ринку України" />
+		</picture>
+		
+				
+		<div class="card-info">
+			<a class="featured_image_sidebar" href="/ua/infographica/7-trendiv-roku-na-finansovomu-rynku-ukrainy.html" title="Детальніше... &quot;7 трендів року коронакризи на фінансовому ринку України&quot;">
+				<div class="card-title">
+					<h4 class="h3-card-title">7 трендів року коронакризи на фінансовому ринку України</h4>                               
+				</div>         
+						
+			</a>
+		</div>
+
+	</div>
+			</div>
+
+</div>
+		 		
+			
+		 		
+			
+		    
+																				
+									 
+
+								</div>
+							</div>
+						</div>		
+											
+					</div>
+				</section>
+    
+    
+   
+</main>
+
+
+	<div class="page-footer">
+		<footer class="footer">
+		
+		
+		
+			<nav class="footer__group footer__group--links" role="contentinfo">
+			<div class="foot-disclaimer">Використання матеріалів сайту дозволено лише за попередньою згодою правовласників. Усі права на матеріали у розділах належать редакції.<br>У разі повного або часткового відтворення матеріалів пряме гіперпосилання на сайт finclub.net обов'язкове.</div>
+			
+				<ul>
+					<li>
+						<a href="//finclub.net/ua/about.html" target="_top">Про проєкт</a>
+					</li>
+					<li>
+						<a href="//finclub.net/ua/reklama" target="_top">Реклама</a>
+					</li>
+					<li>
+						<a href="//finclub.net/ua/contact" target="_top">Зворотній зв'язок</a>
+					</li>
+
+					<li>
+						<a href="//finclub.net/ua/contact" target="_top">Контакти</a>
+					</li>
+
+					<li>
+						<a href="https://finclub.net/all.html?format=feed" target="_top">RSS</a>
+					</li>
+<!--					<li>
+						<a href="#" target="_top">Карта сайта</a>
+					</li>
+					<li>
+						<a href="#" target="_top">Terms of Service</a>
+					</li>
+					<li>
+						<a href="#" target="_top">Privacy Policy</a>
+					</li> -->
+				</ul>
+			</nav>
+			<div class="footer__group footer__group--legal">
+				<p class="footer__copyright">Copyright © 2020 Фінансовий клуб.  Made with <a href="//posmishka.com" target="_blank" rel="noopener">Posmishka</a></p>			
+			</div>
+		</footer>
+		
+
+	</div>
+
+
+
+	</div>	<!--/* page-wrapper	 */ -->
+	<div class="ad-slot js-lazy-load  " id="pol-oop" aria-hidden="true" data-ad-refresh="0"></div>
+
+
+         
+	
+	<script src="https://finclub.net//templates/finclub/assets/js/script.js"></script>
+		
+	<script type="text/javascript">
+	<!--//--><![CDATA[//><!--
+	//var pp_gemius_identifier = 'nAs7AEQB1IH0uVO9aZCSn6Sd78Z6sYNEqm2m2Y5fYnH.j7';
+	// lines below shouldn't be edited
+	//function gemius_pending(i) { window[i] = window[i] || function() {var x = window[i+'_pdata'] = window[i+'_pdata'] || []; x[x.length]=arguments;};};gemius_pending('gemius_hit'); gemius_pending('gemius_event'); gemius_pending('pp_gemius_hit'); gemius_pending('pp_gemius_event');(function(d,t) {try {var gt=d.createElement(t),s=d.getElementsByTagName(t)[0],l='http'+((location.protocol=='https:')?'s':''); gt.setAttribute('async','async');gt.setAttribute('defer','defer'); gt.src=l+'://gaua.hit.gemius.pl/xgemius.js'; s.parentNode.insertBefore(gt,s);} catch (e) {}})(document,'script');
+	//--><!]]>
+	</script>
+		
+    </body>
+</html>

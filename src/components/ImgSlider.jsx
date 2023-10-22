@@ -3,10 +3,10 @@ import { useState } from "react";
 const ImgSlider = () => {
 
     const imgs = [
-        '/img/main-img2.jpg',
         '/img/main-img3.jpg',
-        '/img/main-img4.jpg',
+        '/img/main-img2.jpg',
         '/img/main-img5.png',
+        '/img/banner1.png',
     ];
 
     const [ currentImgIndex, setCurrentImgIndex ] = useState(0);

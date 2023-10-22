@@ -100,8 +100,15 @@ a.active {
   cursor: pointer;
 }
 
+.login:hover {
+  background: black;
+  color: white;
+  transform: scale(1.1);
+  transition: 1s;
+}
+
 .login-page {
-  padding-top: 40px;
+  padding-top: 20px;
 }
 
 .decoration__info {
@@ -160,6 +167,13 @@ input {
   border-radius: 5px;
   cursor: pointer;
   margin-top: 20px;
+}
+
+.btn-login:hover {
+  background: black;
+  color: white;
+  transform: scale(1.1);
+  transition: 1s;
 }
 
 .services {
@@ -241,7 +255,7 @@ input {
 
 .main-menu__items {
   width: 250px;
-  height: 550px;
+  height: 500px;
   background-color: white;
 }
 
@@ -264,6 +278,39 @@ input {
 
 .main-menu__item:hover {
   border-bottom: 1px solid black;
+}
+
+.decor {
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items:flex-end;
+  margin-top: 20px;
+}
+.decor-main {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding-right: 100px;
+  width: 600px;
+
+}
+
+.decor-main img{
+  width: 120px;
+  
+}
+
+.decor__text {
+  margin-right: 30px;
+
+}
+.decor__text-descr {
+  width: 600px;
+  display: flex;
+  justify-content: end;
+  font-size: 11px;
 }
 
 .img-slider {
@@ -312,13 +359,55 @@ input {
   justify-content: center;
 }
 
+.cards__get-btn {
+  width: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards__get-btn a{
+ color: black;
+ text-decoration: none;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ font-size: 17px;
+}
+.cards__get-btn a:hover{
+  color: white;
+ }
+
+.cards__button-get {
+  width: 200px;
+  padding: 15px;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 10px;
+  background: white;
+  cursor: pointer;
+  margin-top: 100px;
+  z-index: 10;
+}
+.cards__button-get:hover {
+  background: black;
+  color: white;
+  transform: scale(1.1);
+  transition: 1s;
+}
+
 .card {
   width: 320px;
   height: 190px;
   border: 2px solid black;
   padding: 10px;
-  margin: 10px;
   border-radius: 10px 10px 10px 10px;
+}
+
+.card__block {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  margin: 10px;
 }
 
 .Premium {
@@ -346,7 +435,120 @@ input {
   margin-top: 20px;
 }
 
+.card__money {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  font-size: 20px;
+  padding: 10px;
+  margin-top: 30px;
+}
+
+.card-status {
+  width: 800px;
+  padding-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.card-status__title {
+  width: 400px;
+  text-align: center;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  font-size: 15px;
+}
+
+.get-card {
+  width: 200px;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 10px;
+  background: white;
+  cursor: pointer;
+  margin-top: 50px;
+  z-index: 10;
+}
+.get-card:hover {
+  transform: scale(1.1);
+  transition: 1s;
+}
+
+.get-card a {
+  text-decoration: none;
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 17px;
+}
+
+.card__close {
+  width: 150px;
+  height: 20px;
+  border: 2px solid black;
+  border-radius: 7px;
+  padding: 5px;
+  margin-top: 5px;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: none;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.card__close:hover{
+  background: black;
+  color: white;
+  transform: scale(1.1);
+  transition: 1s;
+}
+
+.card-status__decor {
+  width: 10px;
+  height: 300px;
+  border-right: 2px solid black;
+  position: absolute;
+  top: 150px;
+  left: 350px;
+}
+
 .cards__decor {
+  width: 400px;
+  height: 80px;
+  background: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.add-cards {
+  width: 800px;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.add-cards__block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+}
+
+.add-cards__decor {
   width: 400px;
   height: 80px;
   background: black;
@@ -357,6 +559,106 @@ input {
   font-size: 18px;
   margin-top: 100px;
 }
+.choose-label {
+  width: 400px;
+  height: 30px;
+  background: black;
+  margin-top: 20px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  border-radius: 10px;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+
+select {
+  width: 400px;
+  height: 30px;
+  color: white;
+  border-radius: 5px; 
+  background-color: #fff; 
+  color: #000000; 
+  outline: black; 
+  cursor: pointer;
+  border: none;
+}
+
+option {
+  cursor: pointer;
+}
+
+select:focus {
+  border-color: #000000;
+  border: 2px solid black;
+  background: black;
+  color: white;
+}
+
+select::-ms-expand {
+  display: none; 
+}
+select::-webkit-select {
+  appearance: none;
+}
+
+select::-moz-select {
+  appearance: none;
+  text-indent: 0.01px; 
+  text-overflow: "";
+}
+
+select::-webkit-select {
+  appearance: none;
+}
+
+select::-webkit-scrollbar {
+  width: 16px;
+  background-color: #000000;
+  border-radius: 10px;
+}
+
+select::-webkit-scrollbar-thumb {
+  background-color: #000000;
+  border-radius: 8px;
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+.add-cards__btn {
+  width: 400px;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 10px;
+  background: white;
+  cursor: pointer;
+  margin-top: 20px;
+  z-index: 10;
+  font-size: 17px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.add-cards__btn a {
+  text-decoration: none;
+  color: black;
+}
+.add-cards__btn a:hover {
+  color: rgb(255, 255, 255);
+}
+
+.add-cards__btn:hover {
+  transform: scale(1.1);
+  transition: 1s;
+  background: black;
+  color: white;
+}
+
 
 .about {
   padding-top: 30px;

@@ -1,22 +1,11 @@
 import { configureStore } from "@reduxjs/toolkit";
-import { createSlice } from "@reduxjs/toolkit";
-
-const cardSlice = createSlice({
-    name: 'card',
-    initialState: [],
-    
-    reducers: {
-        addCard(state, action) {
-            state.push(action.payload)
-        }
-    }
-});
+import cardSlice from "./cardSlice";
 
 export default configureStore({
     reducer: {
-    cards: cardSlice.reducer
+    cards: cardSlice
     }
 });
 
-export const { addCard } = cardSlice.actions;
+
 
