@@ -33,9 +33,9 @@ export const Login = () => {
                 </form>
             </div>
             
-
             <div className="decoration">
-                <div className='decoration__info'>International Bank</div>
+                <div className="decoration-info line"></div>
+                <div className='decoration__info login-deco'>International Bank</div>
             </div>
         </div>
     );

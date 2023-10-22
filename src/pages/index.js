@@ -7,3 +7,6 @@ export * from './Login';
 export * from './Transfers';
 export * from './Payments';
 export * from './Cards';
+export * from './About';
+export * from './Contacts';
+export * from './AddCard';

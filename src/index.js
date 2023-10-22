@@ -6,13 +6,17 @@ import App from './App';
 import { BrowserRouter } from 'react-router-dom';
 import LoginProvider from './hoc/LoginProvider';
 
+import { Provider } from 'react-redux';
+import store from './components/store';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <BrowserRouter>
-        <LoginProvider>
-            <App />
-        </LoginProvider>
-    </BrowserRouter>
- 
+    <Provider store={ store }>
+        <BrowserRouter>
+            <LoginProvider>
+                <App />
+            </LoginProvider>
+        </BrowserRouter>
+    </Provider>
 );
 

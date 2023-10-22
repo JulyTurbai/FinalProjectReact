@@ -1,10 +1,11 @@
 import { NavLink,  } from 'react-router-dom';
 import { useLogin } from '../hook/UseLogin';
 import DropMenu from './DropMenu';
+import Data from './Data';
 
 const Header = () => {
     const { user, singOut } = useLogin();
-    console.log(user)
+    
     return (
         <header className="header">
             <nav className="menu">
@@ -16,7 +17,7 @@ const Header = () => {
                 </ul>
                 <div className="menu-list second">
                     <div className='dop-info'>International Bank</div>
-                    <div className="menu-item">12.23.1234</div>
+                    <div className="menu-item"><Data/></div>
                     {user && <button onClick={ singOut } className="login">Вихід</button>}
                 </div>
             </nav>

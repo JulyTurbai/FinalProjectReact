@@ -9,8 +9,6 @@ const ImgSlider = () => {
         '/img/main-img5.png',
     ];
 
-    console.log(imgs)
-
     const [ currentImgIndex, setCurrentImgIndex ] = useState(0);
 
     const prevSlide = () => {

@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import ImgSlider from "../components/ImgSlider";
 
 export const Home = () => {
@@ -7,9 +8,11 @@ export const Home = () => {
             <div className="main-block">
                 <div className="main main-menu">
                     <ul className="main-menu__items">
-                        <li className="main-menu__item">Перекази</li>
-                        <li className="main-menu__item">Платежі</li>
-                        <li className="main-menu__item">Картки</li>
+                        <li className="main-menu__item"><NavLink to='/transfers'>Перекази</NavLink></li>
+                        <li className="main-menu__item"><NavLink to='/payments'>Платежі</NavLink></li>
+                        <li className="main-menu__item"><NavLink to='/cards'>Картки</NavLink></li>
+                        <li className="main-menu__item"><NavLink to='/about'>Про нас</NavLink></li>
+                        <li className="main-menu__item"><NavLink to='/contacts'>Контакти</NavLink></li>
                     </ul>
                 </div>
                 <div className="main main-info">
