@@ -1,17 +1,17 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 const cardSlice = createSlice({
-    name: 'card',
+    name: 'users',
     initialState: {
         cards: []
     },
     
     reducers: {
         addCard(state, action) {
-            state.cards.push(action.payload)
+            state.users.push(action.payload)
         },
         deleteCard(state, action) {
-            state.cards = state.cards.filter(card => card.id !== action.payload)
+            state.users = state.users.filter(card => card.id !== action.payload)
         }
     }
 });
