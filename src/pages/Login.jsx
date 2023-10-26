@@ -19,7 +19,6 @@ export const Login = () => {
             lastName: form.firstName.value,
             number: form.number.value
         }
-        dispatch(addUser(user));
         
         singIn(user, () => navigate(fromPage));
 
