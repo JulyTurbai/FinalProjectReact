@@ -159,6 +159,11 @@ input {
   margin: 10px;
 }
 
+input:focus {
+  background: black;
+  color: white;
+}
+
 .btn-login {
   width: 80px;
   padding: 10px;
