@@ -8,8 +8,6 @@ export const Login = () => {
     const fromPage = state?.from || '/';
     const navigate = useNavigate();
     const { singIn } = useLogin();
-    const dispatch = useDispatch();
-
     const handleSubmit = event => {
         event.preventDefault();
         

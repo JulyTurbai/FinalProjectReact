@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { deleteCard } from "../components/store/cardSlice";
 
 export const Cards = () => {
-    const cards = useSelector((state) => state.users.users);
+    const cards = useSelector((state) => state.cards.cards);
     const [ cardStatus, setCardStatus ] = useState('');
     const dispatch = useDispatch();
     
@@ -20,6 +20,8 @@ export const Cards = () => {
                     );
                 }
         }, [cards]);
+
+        console.log(cards)
 
     return (
         <>
