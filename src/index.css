@@ -288,6 +288,7 @@ input:focus {
 .main {
   padding: 0;
   height: 100%;
+  position: relative;
 }
 
 .main-block {
@@ -758,6 +759,10 @@ select::-ms-expand {
   font-weight: bold;
 }
 
+.none {
+  display: none;
+}
+
 .transfer-input:focus {
   color: white;
 }
@@ -802,6 +807,23 @@ select::-ms-expand {
 .transfer-cards__btn a {
   text-decoration: none;
   color: rgb(255, 255, 255);
+}
+
+.transfer-result {
+  width: 350px;
+  height: 200px;
+  background: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+  position: absolute;
+  top: 200px;
+  left: 230px;
+  border: 1px solid white;
+  z-index: 100;
 }
 
 .about {

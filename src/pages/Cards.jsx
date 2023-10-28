@@ -8,7 +8,6 @@ export const Cards = () => {
     const [ cardStatus, setCardStatus ] = useState('');
     const dispatch = useDispatch();
     
-    
     useEffect(() => {
         if (cards.length === 0) {
             setCardStatus(<div className="card-status">

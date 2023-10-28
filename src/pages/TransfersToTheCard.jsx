@@ -7,22 +7,29 @@ export const TransfersToTheCard = () => {
     const cards = useSelector((state) => state.cards.cards);
     const [selectedOption, setSelectedOption] = useState(''); 
     const [transferAmount, setTransferAmount] = useState(0);
+    const [isTransferResultVisible, setIsTransferResultVisible] = useState(false);
     const dispatch = useDispatch();
 
     const transferMoneyHandler = () => {
-        if(transferAmount && selectedOption === 0 ) {
-            alert('Введіть, будь ласка сумму переказу')
-        } else {
-            const newBalans = transferAmount; 
-            const cardNumber = selectedOption; 
-            dispatch(updateBalans({ number: cardNumber, newBalans }));
-            alert('Переказ успішно здійснено')
-        }
-        
+        const selectedCard = cards.find((card) => card.number === selectedOption);
+        if (!selectedCard) {
+            alert("Будь ласка, оберіть картку");
+          } else if (transferAmount === 0) {
+            alert("Введіть, будь ласка, суму переказу");
+          } else {
+            const newBalans = parseFloat(selectedCard.balans) + parseFloat(transferAmount);
+            dispatch(updateBalans({ number: selectedOption, newBalans }));
+            setIsTransferResultVisible(true);
+          }
     }
 
     return (
         <>
+            {isTransferResultVisible && (
+                <div className="transfer-result" onClick={() => setIsTransferResultVisible(false)}>
+                    <p>Переказ успішно здійснено</p>
+                </div>
+            )}
             <div className="card-transfer">
                 <div className="card-transfer__block">
                     <div className="card-transfer__choose">
@@ -35,9 +42,7 @@ export const TransfersToTheCard = () => {
                         <option key={ window.crypto.randomUUID() } value="Choose-card">Оберіть карту</option>
                     {
                         cards.map(card => (
-                            <>
-                                <option key={ window.crypto.randomUUID() } value={ card.number }>Картка: { card.name }   Номер картки: { card.number }</option>
-                            </>
+                            <option key={ window.crypto.randomUUID() } value={ card.number }>Картка: { card.name }   Номер картки: { card.number }</option>   
                         ))
                     }
                     </select>
