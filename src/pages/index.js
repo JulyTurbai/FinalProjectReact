@@ -4,7 +4,7 @@ export * from './Services';
 export * from './Archive';
 export * from './NotFound';
 export * from './Login';
-export * from './Transfers';
+export * from './TransfersToTheCard';
 export * from './Payments';
 export * from './Cards';
 export * from './About';

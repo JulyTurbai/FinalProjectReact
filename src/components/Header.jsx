@@ -11,7 +11,7 @@ const Header = () => {
             <nav className="menu">
                 <ul className="menu-list first">
                     <li className="menu-item logo"><NavLink to="/"><img src="img/BankLogo.png" alt="" /></NavLink></li>
-                    <li className="menu-item purse"><NavLink to="/purse">Гаманець</NavLink></li>
+                    <li className="menu-item purse"><NavLink to="/cards">Гаманець</NavLink></li>
                     <li className="menu-item services">Сервіси<DropMenu/></li>
                     <li className="menu-item archive"><NavLink to="/archive">Архів</NavLink></li>
                 </ul>

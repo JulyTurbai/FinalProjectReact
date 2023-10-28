@@ -24,7 +24,7 @@ export const AddCard = () => {
         e.preventDefault();
         const selectedValue = e.target.value;
         setSelectedOption(selectedValue);
-        dispatch(addCard({ id: window.crypto.randomUUID(), class: selectedValue, name: selectedValue, bank: 'Power Banking', number: generateBankCardNumber() , balans: ' 0.00 UAH' }));
+        dispatch(addCard({ id: window.crypto.randomUUID(), class: selectedValue, name: selectedValue, bank: 'Power Banking', number: generateBankCardNumber() , balans: ' 00.00 UAH' }));
     }
 
     return (
