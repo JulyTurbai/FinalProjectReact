@@ -10,9 +10,15 @@ export const TransfersToTheCard = () => {
     const dispatch = useDispatch();
 
     const transferMoneyHandler = () => {
-        const newBalans = transferAmount; 
-        const cardNumber = selectedOption; 
-        dispatch(updateBalans({ number: cardNumber, newBalans }));
+        if(transferAmount && selectedOption === 0 ) {
+            alert('Введіть, будь ласка сумму переказу')
+        } else {
+            const newBalans = transferAmount; 
+            const cardNumber = selectedOption; 
+            dispatch(updateBalans({ number: cardNumber, newBalans }));
+            alert('Переказ успішно здійснено')
+        }
+        
     }
 
     return (
@@ -26,9 +32,12 @@ export const TransfersToTheCard = () => {
                      value={selectedOption}
                      onChange={(e) => setSelectedOption(e.target.value)}
                      >
+                        <option key={ window.crypto.randomUUID() } value="Choose-card">Оберіть карту</option>
                     {
                         cards.map(card => (
-                            <option key={ window.crypto.randomUUID() } value={ card.number }>Картка: { card.name }   Номер картки: { card.number }</option>
+                            <>
+                                <option key={ window.crypto.randomUUID() } value={ card.number }>Картка: { card.name }   Номер картки: { card.number }</option>
+                            </>
                         ))
                     }
                     </select>
