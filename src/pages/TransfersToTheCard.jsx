@@ -1,34 +1,33 @@
 import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { NavLink } from "react-router-dom";
-import { transferToCardBalans } from "../components/store/cardSlice";
+import { transferMoneyHandler } from "../components/TransferMoneyHandler";
 
 export const TransfersToTheCard = () => {
     const cards = useSelector((state) => state.cards.cards);
     const [ selectedOption, setSelectedOption ] = useState(''); 
     const [ transferAmount, setTransferAmount ] = useState(0);
     const [ isTransferResultVisible, setIsTransferResultVisible ] = useState(false);
+    const [ isCardResultVisible, setIsCardResultVisible ] = useState(false);
+    const [ isSummVisible, setIsSummVisible ] = useState(false);
     const dispatch = useDispatch();
-
-    const transferMoneyHandler = () => {
-        const selectedCard = cards.find((card) => card.number === selectedOption);
-        if (!selectedCard) {
-            alert("Будь ласка, оберіть картку");
-          } else if (transferAmount === 0) {
-            alert("Введіть, будь ласка, суму переказу");
-          } else {
-            const newBalans = parseFloat(selectedCard.balans) + parseFloat(transferAmount);
-            dispatch(transferToCardBalans({ number: selectedOption, newBalans }));
-            setIsTransferResultVisible(true);
-          }
-          console.log(cards)
-    }
+    const selectedCard = cards.find((card) => card.number === selectedOption);
 
     return (
         <>
-            {isTransferResultVisible && (
+            { isTransferResultVisible && (
                 <div className="result" onClick={() => setIsTransferResultVisible(false)}>
                     <p>Переказ успішно здійснено</p>
+                </div>
+            )}
+            { isCardResultVisible && (
+                <div className="result" onClick={() => setIsCardResultVisible(false)}>
+                    <p>Будь ласка, оберіть картку</p>
+                </div>
+            )}
+            { isSummVisible && (
+                <div className="result" onClick={() => setIsSummVisible(false)}>
+                    <p>Будь ласка, введіть сумму</p>
                 </div>
             )}
             <div className="card-transfer">
@@ -46,7 +45,13 @@ export const TransfersToTheCard = () => {
                         <option key={ window.crypto.randomUUID() } value="Choose-card">Оберіть карту</option>
                     {
                         cards.map(card => (
-                            <option key={ window.crypto.randomUUID() } value={ card.number }>Картка: { card.name }   Номер картки: { card.number }</option>   
+                            <option 
+                                key={ window.crypto.randomUUID() } 
+                                value={ card.number }
+                                >
+                                Картка: { card.name }   
+                                Номер картки: { card.number }
+                            </option>   
                         ))
                     }
                     </select>
@@ -59,7 +64,19 @@ export const TransfersToTheCard = () => {
                         placeholder="Введіть сумму"
                         onChange={(e) => setTransferAmount(e.target.value)}
                     />
-                    <button  onClick={ transferMoneyHandler} className='add-cards__btn' type='submit'>Здійснити переказ</button>
+                    <button 
+                        onClick={() => transferMoneyHandler
+                        (
+                            selectedCard, 
+                            transferAmount, 
+                            dispatch, 
+                            setIsTransferResultVisible, 
+                            setIsCardResultVisible,
+                            setIsSummVisible
+                        )} 
+                        className='add-cards__btn' type='submit'>
+                        Здійснити переказ
+                    </button>
                     <button className='transfer-cards__btn' type='submit'><NavLink to="/cards">Гаманець</NavLink></button>
                 </div>
             </div>

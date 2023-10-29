@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { NavLink } from 'react-router-dom';
-import { cashToCardBalans } from '../components/store/cardSlice';
+import { cashMoneyHandler } from '../components/СashMoneyHandler';
 
 export const Cash = () => {
     const cards = useSelector((state) => state.cards.cards);
@@ -10,30 +10,8 @@ export const Cash = () => {
     const [ isCashResultVisible, setIsCashResultVisible ] = useState(false);
     const [ isMoneyAnought, setIsMoneyAnought ] = useState(false);
     const dispatch = useDispatch();
-
-    const cashMoneyHandler = () => {
-        const selectedCard = cards.find((card) => card.number === selectedOption);
-        const cashAmountNumber = parseFloat(cashAmount);
-    
-        if (selectedCard) {
-            const cardBalansNumber = parseFloat(selectedCard.balans.replace(/[^0-9.]/g, ''));
-            const tolerance = 0.01;
-    
-            if (Math.abs(cashAmountNumber - cardBalansNumber) < tolerance) {
-                setIsCashResultVisible(true);
-                const newBalans = "00.00";
-                dispatch(cashToCardBalans({ number: selectedOption, newBalans }));
-            } else if (cashAmountNumber >= cardBalansNumber) {
-                setIsMoneyAnought(true);
-            } else {
-                setIsCashResultVisible(true);
-                const newBalans = (cardBalansNumber - cashAmountNumber).toFixed(2);
-                dispatch(cashToCardBalans({ number: selectedOption, newBalans }));
-            }
-        } else {
-            alert("Будь ласка, оберіть картку");
-        }
-    }
+    const selectedCard = cards.find((card) => card.number === selectedOption);
+    const cashAmountNumber = parseFloat(cashAmount);
     
     return (
         <>
@@ -75,7 +53,7 @@ export const Cash = () => {
                         placeholder="Введіть сумму"
                         onChange={(e) => setCashAmount(e.target.value)}
                     />
-                    <button onClick={ cashMoneyHandler } className='add-cards__btn' type='submit'>Зняти готівку</button>
+                    <button onClick={() => cashMoneyHandler(selectedOption, selectedCard, cashAmount, setIsCashResultVisible, setIsMoneyAnought, dispatch) } className='add-cards__btn' type='submit'>Зняти готівку</button>
                     <button className='transfer-cards__btn' type='submit'><NavLink to="/cards">Гаманець</NavLink></button>
                 </div>
             </div>

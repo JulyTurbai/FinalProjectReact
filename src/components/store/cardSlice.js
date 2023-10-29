@@ -13,13 +13,7 @@ const cardSlice = createSlice({
         deleteCard(state, action) {
             state.cards = state.cards.filter(card => card.id !== action.payload)
         },
-        transferToCardBalans(state, action) {
-            const cardToUpdate = state.cards.find(card => card.number === action.payload.number);
-            if (cardToUpdate) {
-                cardToUpdate.balans = action.payload.newBalans + ' ' + 'UAH';
-            }
-        },
-        cashToCardBalans(state, action) {
+        changeCardBalans(state, action) {
             const cardToUpdate = state.cards.find(card => card.number === action.payload.number);
             if (cardToUpdate) {
                 cardToUpdate.balans = action.payload.newBalans + ' ' + 'UAH';
@@ -28,5 +22,5 @@ const cardSlice = createSlice({
     }
 });
 
-export const { cashToCardBalans, transferToCardBalans, addCard, deleteCard } = cardSlice.actions;
+export const { changeCardBalans, addCard, deleteCard } = cardSlice.actions;
 export default cardSlice.reducer;

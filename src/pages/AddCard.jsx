@@ -6,7 +6,6 @@ import { addCard } from "../components/store/cardSlice";
 export const AddCard = () => {
     const dispatch = useDispatch();
     const [selectedOption, setSelectedOption] = useState('');
-    const cards = useSelector((state) => state.cards);
     
     function generateRandomNumber(min, max) {
         return Math.floor(Math.random() * (max - min + 1)) + min;
@@ -22,9 +21,14 @@ export const AddCard = () => {
 
     const handleSelectChange = (e) => {
         e.preventDefault();
-        const selectedValue = e.target.value;
-        setSelectedOption(selectedValue);
-        dispatch(addCard({ id: window.crypto.randomUUID(), class: selectedValue, name: selectedValue, bank: 'Power Banking', number: generateBankCardNumber() , balans: ' 00.00 UAH' }));
+        dispatch(addCard({ 
+            id: window.crypto.randomUUID(), 
+            class: selectedOption, 
+            name: selectedOption, 
+            bank: 'Power Banking', 
+            number: generateBankCardNumber() , 
+            balans: ' 00.00 UAH' 
+        }));
     }
 
     return (
@@ -34,7 +38,7 @@ export const AddCard = () => {
             <label className="choose-label">Оберіть картку:</label>
                 <select
                     value={selectedOption}
-                    onChange={ handleSelectChange }
+                    onChange={(e) => setSelectedOption(e.target.value) }
                 >
                     <option value="Choose-card">Обрати карту</option>
                     <option value="Universal">Universal</option>
@@ -47,7 +51,7 @@ export const AddCard = () => {
                     <option value="post">Новою поштою</option>
                     <option value="online">Online</option>
                 </select>
-                <button className='add-cards__btn' type='submit'><NavLink to="/cards">Отримати картку</NavLink></button>
+                <button onClick={ handleSelectChange } className='add-cards__btn' type='submit'><NavLink to="/cards">Отримати картку</NavLink></button>
             </div>
             
         </div>
