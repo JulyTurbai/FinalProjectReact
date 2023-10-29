@@ -2,6 +2,7 @@ import { useState } from "react";
 import { useSelector } from "react-redux";
 import { NavLink } from "react-router-dom";
 import CardTransferHandler from "../components/CardTransferHandler";
+import SelectFromCardToCard from "../components/SelectFromCardToCard";
 
 export const CardToCard = () => {
     const cards = useSelector((state) => state.cards.cards);
@@ -31,45 +32,20 @@ export const CardToCard = () => {
                     <div className="card-transfer__choose">
                         <p>Будь ласка, оберіть картку, з якої хочете здійснити переказ</p>
                     </div>
-                    <select
-                        className="transfer-select--from"
-                        value={selectedFromOption}
-                        onChange={(e) => setSelectedFromOption(e.target.value)}
-                    >
-                        <option key={window.crypto.randomUUID()} value="Choose-card">Оберіть карту</option>
-                        {
-                            cards.map(card => (
-                                <option
-                                    key={window.crypto.randomUUID()}
-                                    value={card.number}
-                                >
-                                    Картка: {card.name}
-                                    Номер картки: {card.number}
-                                </option>
-                            ))
-                        }
-                    </select>
+                   
+                   <SelectFromCardToCard 
+                        setSelectedFromOption={ setSelectedFromOption} 
+                        selectedFromOption={ selectedFromOption }
+                   />
                     <div className="card-transfer__choose">
                         <p>Будь ласка, оберіть картку, на яку хочете зробити переказ</p>
                     </div>
-                    <select
-                        className="transfer-select--to"
-                        value={selectedToOption}
-                        onChange={(e) => setSelectedToOption(e.target.value)}
-                    >
-                        <option key={window.crypto.randomUUID()} value="Choose-card">Оберіть карту</option>
-                        {
-                            cards.map(card => (
-                                <option
-                                    key={window.crypto.randomUUID()}
-                                    value={card.number}
-                                >
-                                    Картка: {card.name}
-                                    Номер картки: {card.number}
-                                </option>
-                            ))
-                        }
-                    </select>
+                    
+                    <SelectFromCardToCard 
+                        setSelectedFromOption={ setSelectedToOption} 
+                        selectedFromOption={ selectedToOption }
+                   />
+
                     <div className="summ">
                         Введіть потрібну сумму
                     </div>
