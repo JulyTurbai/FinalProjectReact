@@ -10,31 +10,36 @@ export const Cash = () => {
     const [ isCashResultVisible, setIsCashResultVisible ] = useState(false);
     const [ isMoneyAnought, setIsMoneyAnought ] = useState(false);
     const dispatch = useDispatch();
-    
+
     const cashMoneyHandler = () => {
         const selectedCard = cards.find((card) => card.number === selectedOption);
-        const cashAmountNumber = parseFloat(cashAmount); 
-        const cardBalansNumber = parseFloat(selectedCard.balans.replace(/[^0-9.]/g, ''));
-        const tolerance = 0.01; 
+        const cashAmountNumber = parseFloat(cashAmount);
     
-        if (Math.abs(cashAmountNumber - cardBalansNumber) < tolerance) {
-            setIsCashResultVisible(true) 
-            const newBalans = "00.00"; 
-            dispatch(cashToCardBalans({ number: selectedOption, newBalans }));
-        } else if (cashAmountNumber >= cardBalansNumber) {
-            setIsMoneyAnought(true);
+        if (selectedCard) {
+            const cardBalansNumber = parseFloat(selectedCard.balans.replace(/[^0-9.]/g, ''));
+            const tolerance = 0.01;
+    
+            if (Math.abs(cashAmountNumber - cardBalansNumber) < tolerance) {
+                setIsCashResultVisible(true);
+                const newBalans = "00.00";
+                dispatch(cashToCardBalans({ number: selectedOption, newBalans }));
+            } else if (cashAmountNumber >= cardBalansNumber) {
+                setIsMoneyAnought(true);
+            } else {
+                setIsCashResultVisible(true);
+                const newBalans = (cardBalansNumber - cashAmountNumber).toFixed(2);
+                dispatch(cashToCardBalans({ number: selectedOption, newBalans }));
+            }
         } else {
-            setIsCashResultVisible(true)
-            const newBalans = (cardBalansNumber - cashAmountNumber).toFixed(2);
-            dispatch(cashToCardBalans({ number: selectedOption, newBalans }));
+            alert("Будь ласка, оберіть картку");
         }
     }
-
+    
     return (
         <>
         { isCashResultVisible && (
                 <div className="result" onClick={() => setIsCashResultVisible(false) }>
-                    <p>Операція здійснена усрішно</p>
+                    <p>Операція здійснена успішно</p>
                 </div>
             )}
         { isMoneyAnought && (
