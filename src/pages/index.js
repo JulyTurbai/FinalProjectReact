@@ -10,3 +10,4 @@ export * from './Cards';
 export * from './About';
 export * from './Contacts';
 export * from './AddCard';
+export * from './Cash';

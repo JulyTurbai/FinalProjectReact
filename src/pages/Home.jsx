@@ -9,6 +9,7 @@ export const Home = () => {
             <div className="main-block">
                 <div className="main main-menu">
                     <ul className="main-menu__items">
+                        <li className="main-menu__item cash"><NavLink to='/cash'>Зняти готівку</NavLink></li>
                         <li className="main-menu__item transfers">Перекази<TransfersDropMenu/></li>
                         <li className="main-menu__item"><NavLink to='/payments'>Платежі</NavLink></li>
                         <li className="main-menu__item"><NavLink to='/cards'>Картки</NavLink></li>
