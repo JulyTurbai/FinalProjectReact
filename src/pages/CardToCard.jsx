@@ -1,47 +1,15 @@
 import { useState } from "react";
-import { useDispatch, useSelector } from "react-redux";
+import { useSelector } from "react-redux";
 import { NavLink } from "react-router-dom";
-import { changeCardBalans } from "../components/store/cardSlice";
+import CardTransferHandler from "../components/CardTransferHandler";
 
 export const CardToCard = () => {
     const cards = useSelector((state) => state.cards.cards);
-    const dispatch = useDispatch();
     const [selectedFromOption, setSelectedFromOption] = useState('');
     const [selectedToOption, setSelectedToOption] = useState('');
     const [isCashResultVisible, setIsCashResultVisible] = useState(false);
     const [transferAmount, setTransferAmount] = useState(0);
     const [isMoneyAnought, setIsMoneyAnought] = useState(false);
-
-    const cardToCardHandler = () => {
-        const cardAmountNumber = parseFloat(transferAmount);
-
-        if (selectedFromOption && selectedToOption) {
-            const selectedCardFrom = cards.find((card) => card.number === selectedFromOption);
-            const selectedCardTo = cards.find((card) => card.number === selectedToOption);
-
-            if (selectedCardFrom && selectedCardTo) {
-                const cardFromBalansNumber = parseFloat(selectedCardFrom.balans.replace(/[^0-9.]/g, ''));
-                const cardToBalansNumber = parseFloat(selectedCardTo.balans.replace(/[^0-9.]/g, ''));
-                
-
-                if (cardFromBalansNumber >= cardAmountNumber) {
-                    const newBalansFrom = (cardFromBalansNumber - cardAmountNumber).toFixed(2);
-                    dispatch(changeCardBalans({ number: selectedFromOption, newBalans: newBalansFrom }));
-                    const newBalansTo = (cardToBalansNumber + cardAmountNumber).toFixed(2);
-                    dispatch(changeCardBalans({ number: selectedToOption, newBalans: newBalansTo }));
-
-                    setIsCashResultVisible(true);
-                } else {
-                    setIsMoneyAnought(true);
-                }
-            } else {
-                alert("Обрані картки не знайдені");
-            }
-        } else {
-            alert("Будь ласка, оберіть картки для переказу");
-        }
-    }
-
 
     return (
         <>
@@ -111,11 +79,13 @@ export const CardToCard = () => {
                         placeholder="Введіть сумму"
                         onChange={(e) => setTransferAmount(e.target.value)}
                     />
-                    <button
-                        onClick={cardToCardHandler}
-                        className='add-cards__btn' type='submit'>
-                        Здійснити переказ
-                    </button>
+                    <CardTransferHandler
+                        selectedFromOption={selectedFromOption}
+                        selectedToOption={selectedToOption}
+                        transferAmount={transferAmount}
+                        setIsCashResultVisible={setIsCashResultVisible}
+                        setIsMoneyAnought={setIsMoneyAnought}
+                    />
                     <button className='transfer-cards__btn' type='submit'><NavLink to="/cards">Гаманець</NavLink></button>
                 </div>
             </div>
