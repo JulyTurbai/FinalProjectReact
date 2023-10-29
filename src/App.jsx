@@ -1,5 +1,5 @@
 import { Routes, Route } from 'react-router-dom';
-import { About, AddCard, Archive, Cards, Cash, Contacts, Home, Login, NotFound, Payments, Purse, Services, TransfersToTheCard } from './pages';
+import { About, AddCard, Archive, CardToCard, Cards, Cash, Contacts, Home, Login, NotFound, Payments, Purse, Services, TransfersToTheCard } from './pages';
 import Layout from './components/Layout';
 import RequireLogin from './hoc/RequireLogin';
 
@@ -20,6 +20,7 @@ function App() {
             <Route path="payments" element={ <Payments />}/>
             <Route path="cash" element={ <Cash />}/>
             <Route path="transferstothecard" element={ <TransfersToTheCard />}/>
+            <Route path="cardtocard" element={ <CardToCard />}/>
             <Route path="cards" element={ 
               <RequireLogin>
                 <Cards />

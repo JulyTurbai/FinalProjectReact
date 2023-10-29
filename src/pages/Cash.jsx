@@ -34,7 +34,7 @@ export const Cash = () => {
                         <p>Будь ласка, оберіть картку, з якої хочете зняти готівку</p>
                     </div>
                     <select className="transfer-select"
-                     value={selectedOption}
+                     value={ selectedOption }
                      onChange={(e) => setSelectedOption(e.target.value)}
                      >
                         <option key={ window.crypto.randomUUID() } value="Choose-card">Оберіть карту</option>

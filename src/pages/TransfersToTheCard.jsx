@@ -60,7 +60,7 @@ export const TransfersToTheCard = () => {
                     </div>
                     <input type="number" 
                         className="transfer-input"
-                        value={transferAmount}
+                        value={ transferAmount }
                         placeholder="Введіть сумму"
                         onChange={(e) => setTransferAmount(e.target.value)}
                     />
