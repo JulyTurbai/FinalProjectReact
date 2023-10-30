@@ -17,7 +17,6 @@ function App() {
             <Route path="archive" element={ <Archive />}/>
             <Route path="login" element={ <Login />}/>
             <Route path="*" element={ <NotFound />}/>
-            <Route path="payments" element={ <Payments />}/>
             <Route path="cash" element={ <Cash />}/>
             <Route path="transferstothecard" element={ <TransfersToTheCard />}/>
             <Route path="cardtocard" element={ <CardToCard />}/>

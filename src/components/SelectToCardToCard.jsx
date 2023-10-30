@@ -6,7 +6,7 @@ const SelectFromCardToCard = ({ setSelectedToOption, selectedToOption }) => {
     return (
         <select
             className="transfer-select"
-            value={selectedToOption}
+            value={ selectedToOption }
             onChange={(e) => setSelectedToOption(e.target.value)}
         >
             <option key={window.crypto.randomUUID()} value="Choose-card">Оберіть карту</option>

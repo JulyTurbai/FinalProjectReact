@@ -5,7 +5,6 @@ export * from './Archive';
 export * from './NotFound';
 export * from './Login';
 export * from './TransfersToTheCard';
-export * from './Payments';
 export * from './Cards';
 export * from './About';
 export * from './Contacts';
