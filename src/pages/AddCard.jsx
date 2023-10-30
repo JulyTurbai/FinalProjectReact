@@ -26,8 +26,14 @@ export const AddCard = () => {
             class: selectedOption, 
             name: selectedOption, 
             bank: 'Power Banking', 
-            number: generateBankCardNumber() , 
-            balans: ' 00.00 UAH' 
+            number: generateBankCardNumber(), 
+            balans: ' 00.00 UAH', 
+            balanceHistory: [
+                {
+                  amount:' 00.00 UAH',
+                  time: "2023-10-30T10:30:00Z"
+                }
+              ]
         }));
     }
 

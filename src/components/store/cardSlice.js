@@ -16,7 +16,10 @@ const cardSlice = createSlice({
         changeCardBalans(state, action) {
             const cardToUpdate = state.cards.find(card => card.number === action.payload.number);
             if (cardToUpdate) {
-                cardToUpdate.balans = action.payload.newBalans + ' ' + 'UAH';
+                const newBalans = action.payload.newBalans;
+                const time = new Date().toISOString();
+                cardToUpdate.balanceHistory.push({ amount: newBalans, time });
+                cardToUpdate.balans = newBalans + ' UAH';
             }
         },
     }
