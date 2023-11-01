@@ -2,7 +2,7 @@ import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { changeCardBalans } from "../components/store/cardSlice";
 
-const CardTransferHandler = ({ selectedFromOption, selectedToOption, transferAmount, setIsCashResultVisible, setIsMoneyAnought }) => {
+const CardTransferHandler = ({ selectedFromOption, selectedToOption, transferAmount, setIsCashResultVisible, setIsMoneyAnought, setTheSameCard }) => {
   const dispatch = useDispatch();
   const cards = useSelector((state) => state.cards.cards);
 
@@ -10,6 +10,11 @@ const CardTransferHandler = ({ selectedFromOption, selectedToOption, transferAmo
     const cardAmountNumber = parseFloat(transferAmount);
 
     if (selectedFromOption && selectedToOption) {
+      if (selectedFromOption === selectedToOption) {
+        setTheSameCard(true)
+        return; 
+      }
+
       const selectedCardFrom = cards.find((card) => card.number === selectedFromOption);
       const selectedCardTo = cards.find((card) => card.number === selectedToOption);
 
@@ -31,7 +36,7 @@ const CardTransferHandler = ({ selectedFromOption, selectedToOption, transferAmo
       }
     } else {
       alert("Будь ласка, оберіть картки для переказу");
-    }
+    } 
   };
 
   return (

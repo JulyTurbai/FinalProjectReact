@@ -1,7 +1,5 @@
 import { useLocation, useNavigate } from 'react-router-dom';
 import { useLogin } from '../hook/UseLogin';
-import { addUser } from '../components/store/cardSlice';
-import { useDispatch } from 'react-redux';
 
 export const Login = () => {
     const { state } = useLocation();
@@ -34,9 +32,9 @@ export const Login = () => {
                 </form>
             </div>
             
-            <div className="decoration">
-                <div className="decoration-info line"></div>
-                <div className='decoration__info login-deco'>International Bank</div>
+            <div className="login-decoration">
+                <div className="login-decoration__ line"></div>
+                <div className='login-decoration__info'>International Bank</div>
             </div>
         </div>
     );

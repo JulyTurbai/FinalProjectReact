@@ -8,11 +8,6 @@ function App() {
      <Routes>
         <Route path="/" element={ <Layout/> }>
             <Route index="/" element={ <Home />}/>
-            <Route path="purse" element={ 
-              <RequireLogin>
-                <Purse />
-              </RequireLogin>
-            }/>
             <Route path="services" element={ <Services />}/>
             <Route path="archive" element={ <Archive />}/>
             <Route path="login" element={ <Login />}/>

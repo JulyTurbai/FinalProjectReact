@@ -17,7 +17,7 @@ const Header = () => {
                 </ul>
                 <div className="menu-list second">
                     <div className='dop-info'>International Bank</div>
-                    <div className="menu-item"><Data/></div>
+                    <div className="menu-item data"><Data/></div>
                     {user && <button onClick={ singOut } className="login">Вихід</button>}
                 </div>
             </nav>

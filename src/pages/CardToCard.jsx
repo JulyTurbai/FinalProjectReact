@@ -1,70 +1,45 @@
 import { useState } from "react";
-import { useSelector } from "react-redux";
-import { NavLink } from "react-router-dom";
-import CardTransferHandler from "../components/CardTransferHandler";
-import SelectFromCardToCard from "../components/SelectFromCardToCard";
+import CardTransfer from "../components/CardTransfer";
 
 export const CardToCard = () => {
-    const cards = useSelector((state) => state.cards.cards);
-    const [selectedFromOption, setSelectedFromOption] = useState('');
+    const [ selectedFromOption, setSelectedFromOption ] = useState('');
     const [selectedToOption, setSelectedToOption] = useState('');
     const [isCashResultVisible, setIsCashResultVisible] = useState(false);
     const [transferAmount, setTransferAmount] = useState(0);
     const [isMoneyAnought, setIsMoneyAnought] = useState(false);
+    const [ theSameCard, setTheSameCard ] = useState(false)
 
     return (
         <>
-            {isMoneyAnought && (
+            { isMoneyAnought && (
                 <div className="result" onClick={() => setIsMoneyAnought(false)}>
                     <p>На рахунку цієї картки не достатньо грошей для здійснення операції</p>
                 </div>
             )}
-            {isCashResultVisible && (
+            { isCashResultVisible && (
                 <div className="result" onClick={() => setIsCashResultVisible(false)}>
                     <p>Операція здійснена успішно</p>
                 </div>
             )}
-            <div className="card-transfer">
-                <div className="card-transfer__decor">
-                    <div className="card-transfer__decor--line"></div>
+            { theSameCard && (
+                <div className="result" onClick={() => setTheSameCard(false)}>
+                    <p>Обрано дві однакових картки</p>
                 </div>
-                <div className="card-transfer__block">
-                    <div className="card-transfer__choose">
-                        <p>Будь ласка, оберіть картку, з якої хочете здійснити переказ</p>
-                    </div>
-                   
-                   <SelectFromCardToCard 
-                        setSelectedFromOption={ setSelectedFromOption} 
-                        selectedFromOption={ selectedFromOption }
-                   />
-                    <div className="card-transfer__choose">
-                        <p>Будь ласка, оберіть картку, на яку хочете зробити переказ</p>
-                    </div>
-                    
-                    <SelectFromCardToCard 
-                        setSelectedFromOption={ setSelectedToOption} 
-                        selectedFromOption={ selectedToOption }
-                   />
+            )}
 
-                    <div className="summ">
-                        Введіть потрібну сумму
-                    </div>
-                    <input type="number"
-                        className="transfer-input"
-                        value={transferAmount}
-                        placeholder="Введіть сумму"
-                        onChange={(e) => setTransferAmount(e.target.value)}
-                    />
-                    <CardTransferHandler
-                        selectedFromOption={selectedFromOption}
-                        selectedToOption={selectedToOption}
-                        transferAmount={transferAmount}
-                        setIsCashResultVisible={setIsCashResultVisible}
-                        setIsMoneyAnought={setIsMoneyAnought}
-                    />
-                    <button className='transfer-cards__btn' type='submit'><NavLink to="/cards">Гаманець</NavLink></button>
-                </div>
-            </div>
+            <CardTransfer
+            selectedFromOption={ selectedFromOption }
+            setSelectedFromOption={ setSelectedFromOption }
+            selectedToOption={ selectedToOption }
+            setSelectedToOption={ setSelectedToOption }
+            transferAmount={ transferAmount }
+            setTransferAmount={ setTransferAmount }
+            setIsMoneyAnought={ setIsMoneyAnought }
+            isCashResultVisible={ isCashResultVisible }
+            setIsCashResultVisible={ setIsCashResultVisible }
+            setTheSameCard={ setTheSameCard }
+            />
+            
             <div className="transfers-cards__decor">
                 International Bank
             </div>
