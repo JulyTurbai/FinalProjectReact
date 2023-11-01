@@ -40,7 +40,7 @@ export const Cash = () => {
                         <option key={ window.crypto.randomUUID() } value="Choose-card">Оберіть карту</option>
                     {
                         cards.map(card => (
-                            <option key={ window.crypto.randomUUID() } value={ card.number }>Картка: { card.name }   Номер картки: { card.number }</option>   
+                            <option key={ window.crypto.randomUUID() } value={ card.number }> { card.name }  { card.number }  { card.balans }</option>   
                         ))
                     }
                     </select>
