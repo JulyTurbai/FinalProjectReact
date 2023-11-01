@@ -29,11 +29,12 @@ li {
   background-color: rgb(0, 0, 0);
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
 }
 
 .header {
   background: #ffffff;
-  border-bottom: 2px solid black;
   padding: 0px 10px 0px 10px;
 }
 
@@ -431,8 +432,8 @@ input:focus {
 }
 
 .slider-imgs {
-  width: 800px;
-  height: 450px;
+  max-width: 800px;
+  max-height: 450px;
 }
 
 .decoration {
@@ -1042,20 +1043,18 @@ select::-ms-expand {
 .history {
   max-width: 800px;
   height: 100%;
-  position: relative;
 }
 
 .history-block {
   max-width: 790px;
   height: 100%;
   margin: 0 auto;
-  color: rgb(255, 255, 255);
-  background-color: rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
-  padding-bottom: 120px;
 }
 
 .history-title {
@@ -1203,18 +1202,16 @@ footer {
   .container {
     margin: 0 10px 0;
   }
-  .slider-imgs {
-    width: 600px;
-    height: 350px;
-}
+ 
 .decoration {
-  top: 420px; 
+  top: 500px; 
 }
 }
 
-@media (max-width: 740px) {
-  .cards__button-get {
-    margin-top: 50px;
+
+@media (max-width: 700px) {
+  .decoration {
+    top: 450px; 
   }
 }
 
@@ -1238,10 +1235,6 @@ footer {
   .container {
     margin: 0 15px 0;
   }
-  .slider-imgs {
-    width: 500px;
-    height: 320px;
-}
 .dop-info {
   margin-right: 10px;
   font-size: 9px;
@@ -1258,9 +1251,6 @@ footer {
 .decor-main img {
   width: 80px;
 }
-.decoration {
-  top: 380px;
-}
 .decoration__block {
   width: 400px;
   height: 60px;
@@ -1275,10 +1265,6 @@ footer {
   .container {
     margin: 0 15px 0;
   }
-  .slider-imgs {
-    width: 500px;
-    height: 290px;
-}
 .logo {
   width: 70px;
 }
@@ -1337,15 +1323,16 @@ footer {
 }
 }
 
+@media (max-width: 550px) {
+  .decoration {
+    top: 400px
+  }
+}
 
 @media (max-width: 540px) {
   .container {
     margin: 0;
   }
-  .slider-imgs {
-    width: 400px;
-    height: 260px;
-}
 .logo {
   width: 70px;
 }
@@ -1416,10 +1403,6 @@ footer {
 @media (max-width: 450px) {
   .logo img {
     width: 13%;
-}
-  .slider-imgs {
-    width: 350px;
-    height: 230px;
 }
 .logo {
   width: 45px;
@@ -1574,10 +1557,6 @@ select {
 }
   .logo img {
     width: 13%;
-}
-  .slider-imgs {
-    width: 310px;
-    height: 200px;
 }
 .logo {
   width: 45px;

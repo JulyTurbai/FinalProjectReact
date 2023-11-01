@@ -19,7 +19,7 @@ export const Archive = () => {
                         <ul className="card-info__info">
                         {card.balanceHistory.map((entry, index) => (
                             <li key={index}>
-                            Зміна балансу : {entry.amount} UAH
+                            Зміна балансу : {entry.amount}
                             <br />
                             Час зміни: {entry.time}
                             </li>
@@ -31,9 +31,6 @@ export const Archive = () => {
                     <p>Немає карток у банківському архіві.</p>
                 )}
             </div>
-        </div>
-        <div className="archive__decor">
-            International Bank
         </div>
     </>
   );

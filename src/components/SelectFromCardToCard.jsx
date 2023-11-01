@@ -16,8 +16,7 @@ const SelectFromCardToCard = ({ setSelectedFromOption, selectedFromOption }) => 
                         key={window.crypto.randomUUID()}
                         value={card.number}
                     >
-                        Картка: {card.name}
-                        Номер картки: {card.number}
+                         { card.name }  { card.number }  Баланс: { card.balans }
                     </option>
                 ))
             }
