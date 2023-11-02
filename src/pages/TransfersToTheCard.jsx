@@ -67,7 +67,9 @@ export const TransfersToTheCard = () => {
                         className='add-cards__btn' type='submit'>
                         Здійснити переказ
                     </button>
-                    <button className='transfer-cards__btn' type='submit'><NavLink to="/cards">Гаманець</NavLink></button>
+                    <NavLink to="/cards" type='submit' className='transfer-cards__btn'>
+                        Гаманець
+                    </NavLink>
                 </div>
             </div>
             <div className="transfers-cards__decor">

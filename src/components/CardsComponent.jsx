@@ -28,7 +28,7 @@ const CardsComponent = ({ }) => {
                 ))}
             </div>
                 <div className="cards__get-btn">
-                    <button className="cards__button-get"><NavLink to="/addcard">Отримати картку</NavLink></button>
+                    <NavLink to="/addcard" className="cards__button-get" type='submit'>Отримати картку</NavLink>
                 </div>
             <div className="cards__decor">
                     International Bank

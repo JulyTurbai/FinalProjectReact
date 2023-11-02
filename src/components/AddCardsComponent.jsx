@@ -21,7 +21,12 @@ const AddCardsComponent = ({ setSelectedOption, selectedOption, handleSelectChan
                     <option value="post">Новою поштою</option>
                     <option value="online">Online</option>
                 </select>
-                <button onClick={ handleSelectChange } className='add-cards__btn' type='submit'><NavLink to="/cards">Отримати картку</NavLink></button>
+                <div onClick={handleSelectChange} className='add-cards__btn'>
+                    <NavLink to="/cards">
+                        <div>Отримати картку</div>
+                    </NavLink>
+                </div>
+             
             </div>
         </div>
     );

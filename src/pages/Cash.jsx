@@ -9,9 +9,12 @@ export const Cash = () => {
     const [ cashAmount, setCashAmount ] = useState(0);
     const [ isCashResultVisible, setIsCashResultVisible ] = useState(false);
     const [ isMoneyAnought, setIsMoneyAnought ] = useState(false);
+    const [ isCorrectSumm, setIsCorrectSumm ] = useState(false);
+    const [isCard, setIsCard ] = useState(false);
     const dispatch = useDispatch();
     const selectedCard = cards.find((card) => card.number === selectedOption);
     const cashAmountNumber = parseFloat(cashAmount);
+    
     
     return (
         <>
@@ -23,6 +26,16 @@ export const Cash = () => {
         { isMoneyAnought && (
                 <div className="result" onClick={() => setIsMoneyAnought(false) }>
                     <p>На рахунку цієї картки не достатньо грошей для здійснення операції</p>
+                </div>
+            )}
+            { isCorrectSumm && (
+                <div className="result" onClick={() => setIsCorrectSumm(false) }>
+                    <p>Введено некоректну суму</p>
+                </div>
+            )}
+             { isCard && (
+                <div className="result" onClick={() => setIsCard(false) }>
+                    <p>Будь ласка, оберіть картку</p>
                 </div>
             )}
             <div className="card-transfer">
@@ -53,8 +66,11 @@ export const Cash = () => {
                         placeholder="Введіть сумму"
                         onChange={(e) => setCashAmount(e.target.value)}
                     />
-                    <button onClick={() => cashMoneyHandler(selectedOption, selectedCard, cashAmount, setIsCashResultVisible, setIsMoneyAnought, dispatch) } className='add-cards__btn' type='submit'>Зняти готівку</button>
-                    <button className='transfer-cards__btn' type='submit'><NavLink to="/cards">Гаманець</NavLink></button>
+                    <button onClick={() => cashMoneyHandler(selectedOption, selectedCard, cashAmount, setIsCashResultVisible, setIsCorrectSumm , setIsMoneyAnought, setIsCard, dispatch) } className='add-cards__btn' type='submit'>Зняти готівку</button>
+                    <NavLink to="/cards" type='submit' className='transfer-cards__btn'>
+                        Гаманець
+                    </NavLink>
+
                 </div>
             </div>
             <div className="transfers-cards__decor">

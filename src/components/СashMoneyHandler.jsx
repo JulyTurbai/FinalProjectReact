@@ -1,7 +1,12 @@
 import { changeCardBalans } from "./store/cardSlice";
 
-export const cashMoneyHandler = (selectedOption, selectedCard, cashAmount, setIsCashResultVisible, setIsMoneyAnought, dispatch) => {
+export const cashMoneyHandler = (selectedOption, selectedCard, cashAmount, setIsCashResultVisible, setIsCorrectSumm, setIsMoneyAnought, setIsCard, dispatch) => {
     const cashAmountNumber = parseFloat(cashAmount);
+    
+    if (cashAmountNumber <= 0 || isNaN(cashAmountNumber) || cashAmount.trim().startsWith("-")) {
+        setIsCorrectSumm(true);
+        return; 
+    }
 
     if (selectedCard) {
         const cardBalansNumber = parseFloat(selectedCard.balans.replace(/[^0-9.]/g, ''));
@@ -19,6 +24,6 @@ export const cashMoneyHandler = (selectedOption, selectedCard, cashAmount, setIs
             dispatch(changeCardBalans({ number: selectedOption, newBalans }));
         }
     } else {
-        alert("Будь ласка, оберіть картку");
+        setIsCard(true);
     }
 };

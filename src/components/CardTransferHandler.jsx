@@ -2,22 +2,29 @@ import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { changeCardBalans } from "../components/store/cardSlice";
 
-const CardTransferHandler = ({ selectedFromOption, selectedToOption, transferAmount, setIsCashResultVisible, setIsMoneyAnought, setTheSameCard }) => {
+const CardTransferHandler = ({ selectedFromOption, selectedToOption, transferAmount, setIsCashResultVisible, 
+  setIsMoneyAnought, setTheSameCard, setIsCorrectSumm 
+}) => {
   const dispatch = useDispatch();
   const cards = useSelector((state) => state.cards.cards);
 
   const cardToCardHandler = () => {
     const cardAmountNumber = parseFloat(transferAmount);
-
+  
+    if (cardAmountNumber <= 0 || transferAmount.includes('-')) {
+      setIsCorrectSumm(true);
+      return;
+    }
+  
     if (selectedFromOption && selectedToOption) {
       if (selectedFromOption === selectedToOption) {
-        setTheSameCard(true)
-        return; 
+        setTheSameCard(true);
+        return;
       }
-
+  
       const selectedCardFrom = cards.find((card) => card.number === selectedFromOption);
       const selectedCardTo = cards.find((card) => card.number === selectedToOption);
-
+  
       if (selectedCardFrom && selectedCardTo) {
         const cardFromBalansNumber = parseFloat(selectedCardFrom.balans.replace(/[^0-9.]/g, ''));
         const cardToBalansNumber = parseFloat(selectedCardTo.balans.replace(/[^0-9.]/g, ''));
@@ -26,7 +33,7 @@ const CardTransferHandler = ({ selectedFromOption, selectedToOption, transferAmo
           dispatch(changeCardBalans({ number: selectedFromOption, newBalans: newBalansFrom }));
           const newBalansTo = (cardToBalansNumber + cardAmountNumber).toFixed(2);
           dispatch(changeCardBalans({ number: selectedToOption, newBalans: newBalansTo }));
-
+  
           setIsCashResultVisible(true);
         } else {
           setIsMoneyAnought(true);
@@ -36,7 +43,7 @@ const CardTransferHandler = ({ selectedFromOption, selectedToOption, transferAmo
       }
     } else {
       alert("Будь ласка, оберіть картки для переказу");
-    } 
+    }
   };
 
   return (

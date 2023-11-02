@@ -8,6 +8,7 @@ export const CardToCard = () => {
     const [transferAmount, setTransferAmount] = useState(0);
     const [isMoneyAnought, setIsMoneyAnought] = useState(false);
     const [ theSameCard, setTheSameCard ] = useState(false)
+    const [ isCorrectSumm, setIsCorrectSumm ] = useState(false)
 
     return (
         <>
@@ -26,6 +27,12 @@ export const CardToCard = () => {
                     <p>Обрано дві однакових картки</p>
                 </div>
             )}
+            { isCorrectSumm && (
+                <div className="result" onClick={() => setIsCorrectSumm(false)}>
+                    <p>Введено некоректну суму</p>
+                </div>
+            )}
+
 
             <CardTransfer
             selectedFromOption={ selectedFromOption }
@@ -38,6 +45,7 @@ export const CardToCard = () => {
             isCashResultVisible={ isCashResultVisible }
             setIsCashResultVisible={ setIsCashResultVisible }
             setTheSameCard={ setTheSameCard }
+            setIsCorrectSumm={ setIsCorrectSumm }
             />
             
             <div className="transfers-cards__decor">

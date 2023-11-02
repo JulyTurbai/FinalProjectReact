@@ -4,7 +4,8 @@ import CardTransferHandler from './CardTransferHandler';
 import { NavLink } from 'react-router-dom';
 
 const CardTransfer = ({ selectedFromOption, setSelectedFromOption, selectedToOption, 
-    setSelectedToOption, transferAmount, setTransferAmount, setIsCashResultVisible, setIsMoneyAnought, setTheSameCard
+    setSelectedToOption, transferAmount, setTransferAmount, setIsCashResultVisible, setIsMoneyAnought, setTheSameCard,
+    setIsCorrectSumm
 }) => {
     return (
         <div className="card-transfer">
@@ -45,8 +46,11 @@ const CardTransfer = ({ selectedFromOption, setSelectedFromOption, selectedToOpt
                         setIsCashResultVisible={setIsCashResultVisible}
                         setIsMoneyAnought={setIsMoneyAnought}
                         setTheSameCard={ setTheSameCard }
+                        setIsCorrectSumm={ setIsCorrectSumm }
                     />
-                    <button className='transfer-cards__btn' type='submit'><NavLink to="/cards">Гаманець</NavLink></button>
+                    <NavLink to="/cards" type='submit' className='transfer-cards__btn'>
+                        Гаманець
+                    </NavLink>
                 </div>
             </div>
     );
