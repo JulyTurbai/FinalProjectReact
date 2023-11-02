@@ -4,8 +4,9 @@ const ImgSlider = () => {
 
     const imgs = [
         '/img/main-img3.jpg',
-        '/img/main-img2.jpg',
-        '/img/main-img4.jpg',
+        '/img/main-img2.png',
+        '/img/main-img4.png',
+        '/img/main-img5.png',
         '/img/banner1.png',
     ];
 

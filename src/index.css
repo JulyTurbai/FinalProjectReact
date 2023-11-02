@@ -384,7 +384,6 @@ input:focus {
   align-items: center;
   max-width: 300px;
   color: black;
-
 }
 
 .decor-main img{
@@ -1649,4 +1648,11 @@ select {
   font-size: 10px;
 }
 }
-
+@media (max-width: 768px) {
+  .result {
+    left: 50%;
+    transform: translateX(-50%);
+    width: 250px;
+    height: 150px;
+  }
+}

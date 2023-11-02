@@ -11,6 +11,7 @@ export const TransfersToTheCard = () => {
     const [ isTransferResultVisible, setIsTransferResultVisible ] = useState(false);
     const [ isCardResultVisible, setIsCardResultVisible ] = useState(false);
     const [ isSummVisible, setIsSummVisible ] = useState(false);
+    const [ isCorrectSumm, setIsCorrectSumm ] = useState(false);
     const dispatch = useDispatch();
     const selectedCard = cards.find((card) => card.number === selectedOption);
 
@@ -29,6 +30,11 @@ export const TransfersToTheCard = () => {
             { isSummVisible && (
                 <div className="result" onClick={() => setIsSummVisible(false)}>
                     <p>Будь ласка, введіть сумму</p>
+                </div>
+            )}
+            { isCorrectSumm && (
+                <div className="result" onClick={() => setIsCorrectSumm(false)}>
+                    <p>Введено некоректну суму</p>
                 </div>
             )}
             <div className="card-transfer">
@@ -62,7 +68,8 @@ export const TransfersToTheCard = () => {
                             dispatch, 
                             setIsTransferResultVisible, 
                             setIsCardResultVisible,
-                            setIsSummVisible
+                            setIsSummVisible,
+                            setIsCorrectSumm
                         )} 
                         className='add-cards__btn' type='submit'>
                         Здійснити переказ
