@@ -31,7 +31,7 @@ const CardTransfer = ({ selectedFromOption, setSelectedFromOption, selectedToOpt
                    />
 
                     <div className="summ">
-                        Введіть потрібну сумму
+                        Введіть потрібну суму
                     </div>
                     <input type="number"
                         className="transfer-input"

@@ -58,7 +58,7 @@ export const Cash = () => {
                     }
                     </select>
                     <div className="summ">
-                        Введіть потрібну сумму
+                        Введіть потрібну суму
                     </div>
                     <input type="number" 
                         className="transfer-input"
