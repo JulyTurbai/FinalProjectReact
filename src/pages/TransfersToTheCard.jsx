@@ -29,7 +29,7 @@ export const TransfersToTheCard = () => {
             )}
             { isSummVisible && (
                 <div className="result" onClick={() => setIsSummVisible(false)}>
-                    <p>Будь ласка, введіть сумму</p>
+                    <p>Будь ласка, введіть суму</p>
                 </div>
             )}
             { isCorrectSumm && (
@@ -52,7 +52,7 @@ export const TransfersToTheCard = () => {
                     />
 
                     <div className="summ">
-                        Введіть потрібну сумму
+                        Введіть потрібну суму
                     </div>
                     <input type="number" 
                         className="transfer-input"

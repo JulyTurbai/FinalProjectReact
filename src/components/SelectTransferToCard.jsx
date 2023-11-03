@@ -8,7 +8,7 @@ const SelectTransferToCard = ({  setSelectedOption, selectedOption }) => {
                      value={ selectedOption }
                      onChange={(e) => setSelectedOption(e.target.value)}
                      >
-                        <option key={ window.crypto.randomUUID() } value="Choose-card">Оберіть карту</option>
+                        <option key={ window.crypto.randomUUID() } value="Choose-card">Оберіть картку</option>
                     {
                         cards.map(card => (
                             <option 
